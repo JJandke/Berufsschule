@@ -11,25 +11,24 @@ import RPi.GPIO as gpio
 gpio.setmode(gpio.BOARD)
 gpio.setwarnings(False)
 
-# setup pins.
-# inputs definieren und Pins konfigurieren
-input = [27, 29, 31, 33]
-for i in range (4):
-	gpio.setup(input[i], gpio.IN)
-	
-# outputs definieren und Pins konfigurieren
-output = [22, 24, 26, 28]
-for i in range (4):
-	gpio.setup(output[i], gpio.OUT)
-	
-while True:
-	for i in range (4):
-		if gpio.input(input[i]) == gpio.HIGH:
-			print ("Tor " + i + " ist offen.")
-			gpio.output(output[i], gpio.HIGH)
-		else:
-			print ("Tor " + i + " ist zu.")
-			gpio.output(output[i], gpio.HIGH)
-			
-		sleep(5)
-			
+#GPIO Eingänge und Ausgänge festlegen
+inputs = [27,29,31,33] 
+outputs = [22,24,26,28]
+
+for value in inputs: 
+  gpio.setup(value, gpio.IN)
+  
+for value in outputs: 
+  gpio.setup(value, gpio.OUT)
+
+
+#GPIOS: Eingänge abfragen und Zustände optisch ausgeben
+while True: 
+  for i in range(len(inputs)): #Zählergesteuerte Schleife für Anzahl der Elemente 
+    if gpio.input(inputs[i]) == gpio.HIGH: #Falls Spannung auf Input am Index i
+      gpio.output(outputs[i], gpio.HIGH) #Gebe Spannung auf Output am Index i
+    else:
+        gpio.output(outputs[i], gpio.LOW)
+        
+  sleep(5)
+ 
