@@ -41,9 +41,12 @@ while True:
   if ChangeFlagNew != ChangeFlagOld:
     print ("Änderung erkannt!")
     gpio.output(32, gpio.HIGH)
+    
+  else:
+    gpio.output(32, gpio.LOW)
       
   ChangeFlagOld = ChangeFlagNew
       
         
-  sleep(5)
+ # sleep(5)
   
