@@ -578,17 +578,54 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 
 <img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Execution-Flow.jpg" align=left alt="Executable Generation Flow" style="zoom: 67%;" />
 
-- Linker fasst Code zusammen (auch ext. Liraries) und kreiert ausführbare Datei
+- **Linker**: fasst Code zusammen (auch ext. Liraries) und kreiert ausführbare Datei
 
-- Prozedurale Herangehensweise: Scripting, Befehle werden nacheinander abgearbeitet Test
+- **Compiler**: generiert ausführbare Datei vor Laufzeit
+
+- **Interpreter**: übersetzt während der Laufzeit Code in maschinenlesbare Befehke
+
+- **Prozedurale** Herangehensweise: Scripting, Befehle werden nacheinander abgearbeitet *(SH, PowerShell, Fortran, Cobol, C, …)*
+
+- **Objektorientierte** Herangehensweise: Klassen, Funktionen können voneinander aufgerufen und vererbt werden *(Java, C++, Python, Swift, …)*
+
+
 
 ### Datentypen & Strukturen
 
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/ds-introduction2.png" align=left alt="What are Data Structures? Definition and Types - javatpoint" style="zoom:80%;" />
+
+
+
 ### Kontrollstrukturen
+
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/control-structures-in-c.jpg" align=left alt="C++ Control Structures | Conditonal & Loops - Simple Snippets" style="zoom: 80%;" />
+
+
 
 ### Klassen & Vererbung
 
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/wJrAh11ciqUZ-uVxplOWnnX03ofWdb5EoJzZQBm3LCEkoLKZJ6u2IbMl9CcrG0qFsNfLwGfPey3QSCKpr3lgyG-FJOrvaqcFvNhCSW4MqSaEZucjcf4Vg9tEELsd3OnNDUYlGx52mGvcN6SKJPLkndGSMBGutNgqFsZnDaVtR4omVdla.png" align=left alt="Inheritance training in Java (in quite simple language) - ShopingServer Wiki" style="zoom: 67%;" />
+
+
+
+
 ### Skriptsprachen
+
+- Shell-Skript
+- Macros in z.B. Excel
+- Visual Basics for Applications (VBA)
+
+
+
+### Logikgatter
+
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/1.png" align=left alt="schoolphysics ::Welcome::" />
+
+
+
+### Bibliotheken vs. Frameworks
+
+
 
 
 
