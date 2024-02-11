@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
+---
+
 # Inhaltsverzeichnis
 [TOC]
 
