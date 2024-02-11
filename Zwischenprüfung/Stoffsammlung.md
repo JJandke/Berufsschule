@@ -625,7 +625,11 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 
 ### Bibliotheken vs. Frameworks
 
+**Bibliothek**: *You Call Us* –> keine eigenständige, ausführbare Einheit, enthält Codesammlung die in eigenen Code eingebunden werden können
+			–> sehr flexibel, volle Kontrolle
 
+**Framework**: *We Call You* –> Programmgerüste, liefern Bauplan und Grundgerüst der Anwendung, teilt Programmierer mit, was er benötigt
+			–> Rad muss nicht neu erfunden werden, vorhandenes Grundgerüst schließt grobe Fehler aus
 
 
 
@@ -633,17 +637,78 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 
 ### PAP
 
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/9606a172-7cc7-4db3-a7a3-6c32a8b0bc63-1707645516999-13.png" align=left alt="img" style="zoom:50%;" />
+
+
+
 ### UML
+
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/sw-architektur-62304-2.png" align=left alt="UML Unified Modeling Language: Nicht nur für Software-Architekturen" style="zoom:48%;" />
+
+- Wird durch Sprache, ähnlich wie LaTex/Markdown erstellt, 
+- ER-Diagramm ist mehr oder weniger eine visuelle Repräsentation
+
+
+
+### Struktogramm
+
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/8c04d2a1-92ea-400e-9971-0eded7e84bf7.png" align=left alt="img" style="zoom:60%;" />
+
+
 
 
 
 ## 4.8 Datenbankgrundlagen
 
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/fa13d8b2dc34239e95059ff1b.png" align=left alt="img" style="zoom: 80%;" />
+
+**Datenintegrität** = Daten sind in sich und übergreifend widerspruchsfrei
+
+**Datenkonsistenz** = Wenn Daten mehrfach (redundant) gespeichert sind, müssen sie immer Dasselbe aussagen.
+
+**Redundanz** = Mehrfachspeicherung gleicher Information
+
+**Integrierte Informationsverarbeitung** = Beinhaltet *Datenintegration* & *Vorgangsintegration*.
+
+**Datenintegration** = Ist dann gegeben, wenn mehrere betriebliche Funktionsbereiche eine Datenbasis gemeinsam benutzen.
+
+**Datenbasis** = Die Informationen, die in einer Datenbank stehen.
+
+**Vorgangs, Funktions, Prozessintegration** = Ist dann gegeben, wenn mehrere Abteilungen die eigenen Vörgänge eines Prozesses abwickeln.
+
+**Voraussetzung** für integrierte Informationsverarbeitung = **geeignetes Datenbankverwaltungssystem** ([DBMS](https://de.wikipedia.org/wiki/Liste_der_Datenbankmanagementsysteme) = Datenbankmanagementsystem)
+
+
+
 ### ER-Modelle
+
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/b3f971d63740325083623c474.jpg" align=left alt="img" style="zoom:67%;" />
+
+
 
 ### Einfache Syntax
 
+Ausgegeben werden sollen: `Zeitstempel` und `ChipsID` aller **abgelehnten** Zutritte.
+Es soll nach **Zeit** **absteigen** sortiert werden
 
+```sql
+SELECT Zeitstempel, tblChips_ChipsID
+FROM tblZutrittsversuche
+WHERE Ergebnis='Zutritt abgelehnt'
+ORDER BY Zeitstempel DESC;
+```
+
+
+
+Ausgegeben werden sollen: jede `ChipsID`, die **mehr als 10** erfolgreiche **Zutritte** hat
+
+```sql
+SELECT tblChips_ChipsID, COUNT(*) AS Anzahl
+FROM tblZutrittsversuche
+WHERE Ergebnis = "Zutritt gestattet"
+GROUP BY tblChips_ChipsID
+HAVING Anzahl > 10;
+```
 
 
 
