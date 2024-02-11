@@ -718,8 +718,19 @@ HAVING Anzahl > 10;
 
 ## 5.1 Grundverständnis
 
-- Qualität nach ISO 9000
-- QS-Normen
+- **Qualität nach ISO 9000**
+
+  > Grad, in dem ein Satz inhärenter Merkmale eines Objekts Anforderungen erfüllt.
+
+  - Qualität gibt an, in welchem Maße ein Produkt (Ware oder Dienstleistung) den bestehenden Anforderungen entspricht.
+
+  - **Objektive Qualität**: messbar, lässt sich anhand versch. Kriterien quantifizieren
+  - **Subjektive Qualität**: wahrgenommenes Maß an Bedürfnisserfüllung. Z.B. No-Name vs. Markenprodukte
+
+- **QS-Norm** ISO 9001: Einhaltung der vom Qualitätsmanagement festgelegten Maßnahmen. 
+
+- **Audit**: Überprüfung, durch die festgestellt werden soll, ob Richtlinien, Anforderungen oder auch Prozesse in einem Unternehmen die geforderten Standards erfüllen
+
 - [QM-Systeme](##5.2 Qualitätsmanagement)
 
 
@@ -727,8 +738,13 @@ HAVING Anzahl > 10;
 ## 5.2 Qualitätsmanagement
 
 - Verbesserung der Prozess-, Arbeits- und Produktqualität
-- PDCA-Plan
+- **Qualitätsplanung**: Ist-Zustand ermitteln, Ziel-Zustand festlegen
+- **Qualitätslenkung**: Umsetzung der Planphase
 - Softwarequalität
+
+### PDCA-Plan
+
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/grafik-pdca-zyklus-001-lexoffice-1024x706.webp" align=left alt="PDCA-Zyklus: Plan-Do-Check-Act einfach erklärt!" style="zoom: 67%;" />
 
 
 
@@ -742,21 +758,47 @@ HAVING Anzahl > 10;
 
 ### Organisatorische Maßnahmen
 
-- IT-Sicherheitsbeauftragter im Betrieb
-- Erstellen von Sicherheitsrichtlinien –> für Passwörter etc.
+- IT-**Sicherheitsbeauftragter** im Betrieb
+- Erstellen von **Sicherheitsrichtlinien** –> für Passwörter etc.
+- **Schulungen** v. Mitarbeitern –> gegen Social Engineering 
+- Normen, [Branchenstandards](### Normen & Standrads) befolgen3
+
+
 
 ### Technische Maßnahmen
 
-- Virenschutzsystem…
+- Virenschutzsystem
+- Firewall
+- Anti-Spam Filter
+- Privacy/ Security by Design
+
+
 
 ### Datenschutzgesetze
 
 - DSGVO, BDSG
-- Definition pers.-bezogener Daten
+
+- Definition personenbezogener Daten:
+
+  > alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person [...] beziehen
+
+
 
 ### Normen & Standrads
 
-- ISO 2700x
+- [ISO 2700x](https://de.wikipedia.org/wiki/ISO/IEC-27000-Reihe)
+- **CIA-Triade**
+  - **Confidentiality** (*Vertraulichkeit*): Daten nur von autorisierten Benutzern zugänglich –> Nutzerauthorisierung
+  - **Integrity** (*Integrität*): Keine unbemerkte Veränderung –> Prüfsummen wie CRC-64, MD5, SHA
+  - **Availablility** (*Verfügbarkeit*): Verhinderung von Systemausfällen –> Redundante Speicherung durch [RAID](### RAID-Systeme), Servercluster, Backups
+
+- Weitere **Schutzziele**:
+  - **Authenticity** (*Authentizität*): Echtheit, Vertrauenswürdigkeit von Daten –> digitale signaturen z.B. in PDFs, HTTPS
+  
+  - **Accountability vs. Anonymity** (*Zurechenbarkeit vs. Anonymität*): (keine) Rückführung auf einzelne Person mögl. z.B. Usertracking auf Insta vs. anonymes surfen durch [Tor](https://de.wikipedia.org/wiki/Tor_(Netzwerk))
+
+  - **Resilence** (*Resilenz*): Widerstandsfähigkeit ggü. Ausspähungen, irrtümlichen oder mutwilligen Beschädigungen –> Loadbalancer, DDos-Schutz…
+  
 - BSI IT-Grundschutz
 
 
