@@ -799,44 +799,172 @@ HAVING Anzahl > 10;
 
   - **Resilence** (*Resilenz*): Widerstandsfähigkeit ggü. Ausspähungen, irrtümlichen oder mutwilligen Beschädigungen –> Loadbalancer, DDos-Schutz…
   
-- BSI IT-Grundschutz
+- BSI IT-Grundschutz: Katalog mit grundlegenden Sicherheitsanforderungen
 
 
 
 ## 6.2 Schutzbedarfsanalyse
 
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Abb_2_09_Varianten.png" align=left alt="BSI - Lerneinheit 2.9: Wahl der Vorgehensweise" />
+
+- Analyse, **welche** **Bereiche** d. Unternehmens **welchen** **Schutz** erfordern. 
+
+- **Anpassung** an **Tätigkeit**/Ausrichtung des Unternehmens (Bäckerei vs. IT-Dienstleister für Bundestag)
+- Betrachtung von Netzwerk (Sicherheit), Gebäude (Einbruch, Zugangskontrolle), E-Mail-Client (Viren-/ Phishing-Erkennung) etc., deren Wert und Bedrohungsgrad
+
+**Ablauf** e. Schutzbedarfsanalyse:
+
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/738x415_f5f5f5.jpg" align=left alt="Der übliche Ablauf einer Schutzbedarfsanalyse." style="zoom: 80%;" />
+
+Gute [Seite](https://www.computerwoche.de/a/it-sicherheit-das-kalkulierte-risiko) dazu.
+
 
 
 ## 6.3 Sicherheitskonzept entwickeln
 
-- Bausteine aus Grundschutzkatalog
-- Schutzbedarfskategorien
-- IT-Sicherheitsmanagement implementieren
+- **Bausteine aus Grundschutzkatalog**
+
+  |                                                              |                                                              |                                                              |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Abb_5_02_Schichtenmodell.png" align=left alt="Das Schichtenmodell des IT-Grundschutz-Kompendiums - Einzelheiten werden im Text erläutert." style="zoom: 50%;" /> | ISMS<br />ORP<br />CON<br /><br />OPS<br />DER<br />APP<br />SYS<br />IND<br />NET<br />INF<br /> | Sicheritsmanagement<br />Organisation und Personal<br />Konzeption und Vorgenehsweisen (Kryptokonzept, Datenschutz,<br />Datensicherung, Auswahl von Software, …)<br />Aufteilung d. Betriebs<br />Detektion und Reaktion v. sicherheitsrelevanten Ereignissen, Audits, IT-Forensik<br />Anwendungen (Browser, Webserver, Outlook, etcl.)<br />IT-Systeme (Server, Virtualisierung, Clients, Laptops, Handys)<br />Industrielle IT (Betriebs-/ Steuerungstechnik, Sensoren und Aktoren)<br />Netze und Kommunikation (Netzarchitektur und -design, Netzmanagement)<br />Infrastruktur (Gebäude, Serverräume, Verkabelung, Homeoffice) |
+
+- **Schutzbedarfskategorien**
+  - **normal**: Kein Imageverlust beim Kunden, Schaden unter 50.000€
+  - **hoch**: Ansehen wird erheblich beeinträchtigt, 50.000€ < Schaden < 500.000€
+  - **sehr hoch**: Ansehen wird grundlegend und nachhaltig beschädigt, Schaden > 500.000€
+
+
+
+- **IT-Sicherheitsmanagement implementieren**
+  - **ISMS-Scoping**: klärt grundlegende Dinge wie Sicherheitsniveau, Aufwand d. Implementierung etc.
+  - **Abstimmung/ Planung** von Sicherheitsmaßnamen, Erstellung von benötigten Unterlagen und Sicherheitsregeln
+  - **Einführung** der ISMS in der Organisation
+  - **Verbesserung** im laufenden Betrieb
 
 
 
 ## 6.4 Umsetzung d. Sicherheitskonzepts
 
-- IT-Sicherheitsmanagement
-- Technische, Infrastrukturelle Schutzmaßnahmen
-- Security by Design/ Default
+- **IT-Sicherheitsmanagement** (s.o., Grundlagen zu Passwort-Policy etc.)
+- **Technische, Infrastrukturelle Schutzmaßnahmen**: Zugangs- und Zugriffskontrolle (Sowohl Gebäude als auch interne Software-Tools), Netzwerksicherheit, Aufstellen von [Honeypots](https://www.kaspersky.de/resource-center/threats/what-is-a-honeypot), Implementierung von LDAP, VPN-Zugriff, Verschlüsselung d. Daten, regelm. Updates, abgeschottete Serverumgebung (keine direkte Verbindung zw. zentr. Datenspeicher und Internet), …
+- **Security by Design/ Default**: z.B. sind per Default alle Ports an einer Firewall blockiert, nur bei bedarf werden die benötigten Ports für genau definierte IPs freigegeben, es wird grundsätzlich verboten sich im Firmennetz am LDAP-Server anzumelden, nur explizit registrierte MAC-Adressen dürfen sich anmelden etc.
+- Falls es drankommt: SSH vs. Telnet. Telnet ist ungefähr so sicher wie Bungeejumping an Gummibärchenschlangen. Also NEIN!
+
+
 
 ### Datensicherung, Backup-Verfahren
-  - Inkrementell
-  - Differenziell
-  - Vollbackup
+
+> [!IMPORTANT]
+>
+> Es sollte IMMER die [3-2-1 Regel](https://it-service.network/blog/2021/09/13/3-2-1-regel/) für Backups befolgt werden.
+
+
+
+|                                  | Voll           | Differential                    | Inkrementiell                         |
+| -------------------------------- | -------------- | ------------------------------- | ------------------------------------- |
+| **Speicherplatz**                | Viel           | mittel bis viel                 | wenig                                 |
+| **Backup Geschwindigkeit**       | langsam        | schnell                         | am schnellsten                        |
+| **Wiederherstellung**            | am schnellsten | schnell                         | am langsamsten                        |
+| **Benötigte Versionen**          | nur das Neuste | das letzte Voll- und Teilbackup | das letzte Voll- und alle Teilbackups |
+| **Doppelt gespeicherte Dateien** | sehr viele     | einige                          | keine                                 |
+
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/types-of-backup-full-differential-incremental.png" align=left  alt="A basic graphic displaying the difference between full backup, differential backup, and incremental backup." style="zoom: 80%;" />
+
+
+
+
 
 ### RAID-Systeme
+
+> [!WARNING]
+>
+> RAID ist KEIN Backup!!!
+
+#### RAID 0
+
+Zwei **Festplatten** (eigentlich [Partitionen](### Formatierung/ Partitionierung
+)) werden zu einer logischen Platte (Partition) **zusammengefügt**. Beide **Partitionen** müssen **gleich** **groß** sein.
+
+|                                                              | Vorteil                                                      | Nachteil                                                     | Berechnung d. Speicherplatzes |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------- |
+| <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/1280px-RAID_0.svg-1707843979228-10.png" alt="undefined" style="zoom: 25%;" /> | **hohe Lesegeschwindigkeit**<br />–> es kann von beiden Platten gleichzeitig gelesen werden<br /><br />**höhere Schreibgeschwindigkeit**<br />–> es muss nur 1/2 der Daten auf jede Platte geschrieben werden | Der Ausfall einer Platte führt zu einem **Totalausfall**<br /><br />Die Partitionsgröße orientiert sich an der kleineren Festplatte -> `3TB + 2TB = 4TB` nutzbarer Speicher | $$TB_{Platte} \times 2$$      |
+
+
+
+#### RAID 1
+
+Zwei **Festplatten** werden 1:1 **gespiegelt**. Beide Partitionen müssen gleich groß sein. 
+
+|                                                              | Vorteil                                                      | Nachteil                                                     | Berechnung d. Speicherplatzes |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------- |
+| <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/1280px-RAID_1.svg.png" alt="undefined" style="zoom: 25%;" /> | **hohe Lesegeschwindigkeit**<br />–> es kann von beiden Platten gleichzeitig gelesen werden<br /><br />**Sehr hohe Redundanz**<br />–> Eine Platte darf ausfallen<br /><br />wenig Zeit zur Wiederherstellung benötigt | Es kann nur die Hälfte des verfügbaren Speicherplatzes genutzt werden<br /><br />Die Partitionsgröße orientiert sich an der kleineren Festplatte -> `3TB + 2TB = 2TB` nutzbarer Speicher | $$TB_{Platte} : 2$$           |
+
+
+
+#### RAID 5
+
+Die Datei wird in mehrere Teile (Hier 3) aufgeteilt und verteilt gespeichert. Zusätzlich wird die Paritätsinformation berechnet (XOR) und alternierend auf den Platten verteilt (keine extra Paritäts-Platte). Alle Partitionen müssen gleich groß sein.
+
+|                                                              | Vorteil                                                      | Nachteil                                                     | Berechnung d. Speicherplatzes                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------- |
+| <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/2560px-RAID_5.svg.png" alt="undefined" style="zoom:50%;" /> | **hohe Lesegeschwindigkeit**<br />–> es kann von mehreren Platten gleichzeitig gelesen werden<br /><br />**Sehr hohe Redundanz**<br />–> gleiche Redundanz wie Raid 1 bei geringeren Kosten/Redundanz<br /><br />**Mehr Speicherplatz** bei gleicher Redundanz im Vergleich zu RAID 1 | Es wird bei der Wiederherstellung **Rechenzeit** benötigt<br /><br />Alle Partitionen müssen gleich groß sein | $$(\#_{Festplatten} - 1) \times TB_{Platte}$$ |
+
+
+
+#### JBOD
+
+Streng genommen kein RAID. Alle Festplatten (unbegrenzt) werden in ihrer vollen Kapazität genutzt.
+*Im Bild wird irrtümlich eine augenscheinliche Zerteilung einer Datei (in 95 Teile) dargestellt. Es sind in diesem Fall aber 95 verschiedene Dateien.*
+
+|                                                              | Vorteil                                                      | Nachteil                                                     | Berechnung d. Speicherplatzes                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- |
+| <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/1920px-JBOD.svg.png" alt="undefined" style="zoom: 25%;" /> | Nutzung aller verfügbaren Festplatten in ihrer vollen Größe<br /><br />kein Stripping (Zerteilung der Dateien) wie bei RAID 0 | Keine Redundanz<br /><br />Bei einem Plattenausfall gehen alle Daten der betroffenen Platte verloren | $$TB_{Platte_1} + TB_{Platte_2} + TB_{Platte_n}$$ |
+
+
+
+#### Vermischte Typen
+
+Es ist auch möglich mehrere RAID-Typen zu mischen. So kann aus zwei RAID 0 Verbünden ein RAID 1 Verbund erstellt werden.
+Auch ein RAID 15 etc. ist somit möglich *(wird teilw. auch genutzt)*. Für mehr Infos ist dieser [Wikipedia-Artikel](https://de.wikipedia.org/wiki/RAID) sehr interessant.
+
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/1920px-RAID_10.svg.png" alt="undefined" style="zoom:13%;" /><img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/RAID_51.png" alt="undefined" style="zoom:40%;" />        
+
+
 
 
 
 ### USV
 
+**[Typen](https://fachinformatikerpruefungsvorbereitung.de/abschlusspr%C3%BCfungteil1/systemintegration/usv/) von unterbrechungsfreien Stromversorgungseinheiten:**
+
+| Name                    | Schutz bei                                                   | Umschaltzeit | Funktionsweise                                               |                                                              |
+| ----------------------- | ------------------------------------------------------------ | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Offline USV**         | Netzausfall<br />große Über-/ Unterspannung                  | 3-10ms       | Weiterleitung der Netzspannung. Bei Netzausfall wird auf Batteriebetrieb umgeschalten. <br />Gibt die Netzspannung ungefiltert durch. evtl. schädlich für empfindliche Geräte | ![img](/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Akkurat-Offline-USV@741x-8-600x283.png) |
+| **Netzinteraktive USV** | Netzausfall<br />Über-/ Unterspannung<br />Schwankungen der Netzspannung | < 4ms        | Weiterleitung und “Glättung” der Netzspannung. Zusätzlich werden Schwankungen ausgeglichen. | ![img](/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Akkurat-Line-Interactive-USV-600x304.png) |
+| **Online USV**          | Netzausfall<br />Über-/ Unterspannung<br />Schwankungen der Netzspannung und Netzfrequenz | keine        | Die eingehende Netzspannung wird konstant gefiltert und geglättet. Spannungsspitzen und -täler werden durch die Batterie ausgeglichen. Auch Frequenzsschwankungen werden ausgeglichen. | <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Akkurat-Online-USV-600x334.png" alt="img"  /> |
+
+Online USVen sind logischerweise wesentlich teurer und rentieren sich nur bei empfindlicher oder hochverfügbarer IT-Hardware. Eine Netzinteraktive USV ist meist der Kompromiss zwischen den anderen beiden Varianten. 
+
+Man bemerke, dass die meisten Server-/ Computernetzteile von sich aus Spannungslücken von >= 16ms (ATX-Standard) kompensieren können. Daher sollte auch die Umschaltung einer Offline-USV i.d.R. keine/kaum Beeinträchtigungen darstelt.
 
 
-- Zugangs-, Zutrittskontrolle
-- Authentifizierung
-- Firewall, SSH vs. Telnet
+
+**Berechnung der benötigten USV:**
+
+- **Wirkleistung**: realer Stromverbrauch der angeschlossenen Geräte, Einheit Watt $$W$$ 
+- **Blindleistung**: wird zwischen Erzeuger und Verbraucher übertragen.
+- **Scheinleistung**:  $$Wirkleistung + Blindleistung$$ , Einheit Voltampere $$VA$$ 
+- **Autonomiezeit**: Überbrückungsdauer bei Netzausfall
+
+Ein Unternehmen betreibt ein Rechenzentrum, das aus vier Racks besteht. Jedes Rack benötigt eine Leistung von 2,75 kW. Das Rechenzentrum ist mit einer USV-Anlage mit einer Nennleistung von 15 kVA abgesichert. Die USV-Anlage wird mit einer Blei-Säure-Batterie betrieben, die eine Kapazität von 6 kWh hat.
+
+**Berechnung der Autonomiezeit**: 
+
+> $$\frac{Batteriekapazität}{Leistung}$$ –> $$\frac{6kWh}{11kW} = 0,54h$$  // Berechnung in Stunden
+>
+> $$60h \times 0,54 = 32min$$ // Umrechnung in Minuten
+
+
 
 
 
