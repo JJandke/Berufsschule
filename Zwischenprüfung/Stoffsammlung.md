@@ -960,11 +960,24 @@ Ein Unternehmen betreibt ein Rechenzentrum, das aus vier Racks besteht. Jedes Ra
 
 **Berechnung der Autonomiezeit**: 
 
-> $$\frac{Batteriekapazität}{Leistung}$$ –> $$\frac{6kWh}{11kW} = 0,54h$$  // Berechnung in Stunden
+> $$\frac{Batteriekapazität}{Leistung}$$ –> $$\frac{6kWh}{2,75kW \times 4} = 0,54h$$	// Berechnung in Stunden
 >
-> $$60h \times 0,54 = 32min$$ // Umrechnung in Minuten
+> $$60h \times 0,54 = 32min$$	// Umrechnung in Minuten
 
 
+
+**Berechnung der USV-Größe:**
+
+Zur Berechnung sollte immer die $$VA$$-Angabe d. Netzteiler *(oder entsprechende Messergebnisse)* genutzt werden. Diese können einfach addiert werden. 
+Ist keine Angabe in $$VA$$ verfügbar *(wie in diesem Beispiel)*, gilt wie folgt vorzugehen:
+
+> $$2,75kW \times 4 = 11kW$$
+>
+> $$11kW \times 1,6 = 17,6kVA$$	// 1,6 als ungefähren Faktor für die Umrechnung
+>
+> $$17,6kVA \times 1,3 = 22,88kVA$$	// +30% Puffer
+
+Ich glaube aber nicht, dass die zweite Aufgabe gefragt wird, da das im Endeffekt ne Milchmädchenrechnung ist, weil die 1,6 nur eine Annäherung an den cosPhi sind…
 
 
 
