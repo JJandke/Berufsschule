@@ -17,13 +17,13 @@ typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
 
 ### Strukturplan
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/PSP_Umzug.jpg" align=left alt="Projektstrukturplan – Wikipedia" style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/PSP_Umzug.jpg" align=left alt="Projektstrukturplan – Wikipedia" style="zoom: 80%;" />
 
 
 
 ### Netzplan
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/netzplantechnik-beispiel-teamevent.pngwidth=600&name=netzplantechnik-beispiel-teamevent.png" align=left alt="Grafik Netzplantechnik Beispiel Teamevent" style="zoom:;" /> ![Grafik Netzplantechnik Vorgangsknoten](/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/netzplantechnik-vorgangsknoten.pngwidth=363&name=netzplantechnik-vorgangsknoten.png)
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/netzplantechnik-beispiel-teamevent.pngwidth%3D600%26name%3Dnetzplantechnik-beispiel-teamevent.png" align=left alt="Grafik Netzplantechnik Beispiel Teamevent" style="zoom:;" /> ![Grafik Netzplantechnik Vorgangsknoten](https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/netzplantechnik-vorgangsknoten.pngwidth%3D363%26name%3Dnetzplantechnik-vorgangsknoten.png)
 
 | Bez. | Bedeutung                                                    |
 | ---- | ------------------------------------------------------------ |
@@ -42,7 +42,7 @@ Kritischer Pfad: Sobald verzögerter Prozess e. GP von 0 hat lander er auf dem k
 
 ### Gantt-Diagramm
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/parts-of-gantt-chart@2x.png" align=left alt="Aufbau von Gantt Digrammen | Lucidchart" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/parts-of-gantt-chart%402x.png" align=left alt="Aufbau von Gantt Digrammen | Lucidchart" style="zoom:67%;" />
 
 - Kritischer Weg
 - Pufferzeiten
@@ -53,7 +53,7 @@ Kritischer Pfad: Sobald verzögerter Prozess e. GP von 0 hat lander er auf dem k
 
 ### Projektphasen & SMART
 
-<img src="https://www.factro.de/wp-content/uploads/2021/11/Graph2.png" align=left alt="Graphik eines iterativen Projektphasenmodells" style="zoom: 25%;" /> <img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Wordpress_SMART-Methode-1024x576.jpg" alt="SMART Methode • Definition & Beispiele · [mit Video]" style="zoom: 41%;" />
+<img src="https://www.factro.de/wp-content/uploads/2021/11/Graph2.png" align=left alt="Graphik eines iterativen Projektphasenmodells" style="zoom: 25%;" /> <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Wordpress_SMART-Methode-1024x576.jpg" alt="SMART Methode • Definition & Beispiele · [mit Video]" style="zoom: 41%;" />
 
 1. **Start** (klärung grundsätzl. Bedingungen, Projektsteckbrief, SWOT-Analyse) –> Realisierbarkeit, Zweck, Wert
 2. **Planung** (Zeitraum, Beteiligte, Ausgangssituation, Sach- Terminziel, Budget) 
@@ -78,7 +78,7 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 ### Teambildung
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/tuckman-phasenmodell-forming-storming-norming-performing.png" align=left alt="Forming, storming, norming, performing: In 4 Phasen zum perfekten Team" style="zoom: 67%;" /> 
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/tuckman-phasenmodell-forming-storming-norming-performing.png" align=left alt="Forming, storming, norming, performing: In 4 Phasen zum perfekten Team" style="zoom: 67%;" /> 
 
 
 
@@ -181,21 +181,21 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 ### Marktformen
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Screenshot_20240207-181705-1707641582463-25.png" alt="Screenshot_20240207-181705" align=left style="zoom: 45%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Screenshot_20240207-181705-1707641582463-25.png" alt="Screenshot_20240207-181705" align=left style="zoom: 45%;" />
 
 
 
 ### Organisationsformen
 
-<img src="https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2023/06/WP_Einlinienorganisation-1024x576.jpg" alt="Organisationsformen • Definition, Formen und Beispiele · [mit Video]" style="zoom:33%;" /> <img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/WP_Mehrlinienorganisation-1024x576.jpg" alt="Organisationsformen • Definition, Formen und Beispiele · [mit Video]" style="zoom:33%;" /> 
+<img src="https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2023/06/WP_Einlinienorganisation-1024x576.jpg" alt="Organisationsformen • Definition, Formen und Beispiele · [mit Video]" style="zoom:33%;" /> <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/WP_Mehrlinienorganisation-1024x576.jpg" alt="Organisationsformen • Definition, Formen und Beispiele · [mit Video]" style="zoom:33%;" /> 
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Stablinienorganisation-1024x576.jpg" alt="Organisationsformen • Definition, Formen und Beispiele · [mit Video]" style="zoom:33%;" /> <img src="https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2023/06/WP_Matrixorganisation-1024x576.jpg" alt="Organisationsformen • Definition, Formen und Beispiele · [mit Video]" style="zoom:33%;" /> 
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Stablinienorganisation-1024x576.jpg" alt="Organisationsformen • Definition, Formen und Beispiele · [mit Video]" style="zoom:33%;" /> <img src="https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2023/06/WP_Matrixorganisation-1024x576.jpg" alt="Organisationsformen • Definition, Formen und Beispiele · [mit Video]" style="zoom:33%;" /> 
 
 
 
 ###           Vertragsgestaltung
 
-![Screenshot_20240208-164551](/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Screenshot_20240208-164551-1707641582463-26.png)
+![Screenshot_20240208-164551](https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Screenshot_20240208-164551-1707641582463-26.png)
 
 
 
@@ -216,7 +216,7 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 - Eigene Datenerhebung
 - Auswertung v. Daten –> z.B. Anforderung an Büroarbeitsplätze
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Ergonomie-am-Arbeitsplatz-Definition-Licht-Buerostuhl-Tipps-Infografik.png" align=left alt="Ergonomie am Arbeitsplatz: Tipps + Beispiele für das Büro" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Ergonomie-am-Arbeitsplatz-Definition-Licht-Buerostuhl-Tipps-Infografik.png" align=left alt="Ergonomie am Arbeitsplatz: Tipps + Beispiele für das Büro" style="zoom: 67%;" />
 
 
 
@@ -226,19 +226,19 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 #### Sender- Empfängermodell
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Sender-Empfänger-Beispiel.png" align=left alt="Sender-Empfänger Modell - Schritt für Schritt erklärt (+Beispiel)" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Sender-Empf%C3%A4nger-Beispiel.png" align=left alt="Sender-Empfänger Modell - Schritt für Schritt erklärt (+Beispiel)" style="zoom: 67%;" />
 
 
 
 #### Eisbergmodell
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Eisbergmodell_WP_Bild_1-1024x576.jpg" align=left alt="Eisbergmodell • Kommunikationsmodell, Freud · [mit Video]" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Eisbergmodell_WP_Bild_1-1024x576.jpg" align=left alt="Eisbergmodell • Kommunikationsmodell, Freud · [mit Video]" style="zoom:50%;" />
 
 
 
 #### 4-Ohren Modell
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/4-Seiten-einer-Nachricht-Schulz-von-Thun.jpeg" align=left alt="4-Ohren-Modell: Einfach erklärt + Beispiele" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/4-Seiten-einer-Nachricht-Schulz-von-Thun.jpeg" align=left alt="4-Ohren-Modell: Einfach erklärt + Beispiele" style="zoom:50%;" />
 
 
 
@@ -261,11 +261,11 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 ### Nutzwertanalyse
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/peco-nutzwertanalyse-beispiel-neue-website-xl.png" align=left alt="Die Nutzwertanalyse - Peterjohann Consulting" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/peco-nutzwertanalyse-beispiel-neue-website-xl.png" align=left alt="Die Nutzwertanalyse - Peterjohann Consulting" />
 
 ### Vertriebsformen
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/vertriebsarten.pngwidth=601&name=vertriebsarten.png" alt="Vertriebsarten im Überblick" style="zoom: 67%;" /> 
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/vertriebsarten.pngwidth%3D601%26name%3Dvertriebsarten.png" alt="Vertriebsarten im Überblick" style="zoom: 67%;" /> 
 
 
 
@@ -287,13 +287,13 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 - **Netzwerkkomponenten**:
 
-  - **RJ45** Stecker: 8 Adern, LEDs an Port nicht genormt, Leuchten steht für Link erfolgreich, blinken für Link aktiv![image-20240208181413050](/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/image-20240208181413050.png)
+  - **RJ45** Stecker: 8 Adern, LEDs an Port nicht genormt, Leuchten steht für Link erfolgreich, blinken für Link aktiv![image-20240208181413050](https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/image-20240208181413050.png)
 
     
 
   - (Q)**SFP**(+): Für Glasfasfaser, meist LC oder MPO-Kabel verwendet, bis zu 800Gbit/s
 
-    <img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/education-Singlemode-vs-multimode-lg.jpg" align=left alt="What is the difference between single mode vs. multimode fiber?- TC  Communications" style="zoom:50%;" /> <img src="https://www.glsunmall.com/resource/image/guideImage/transceivers.jpg" align=right alt="Differences Between SFP, SFP+, SFP28, QSFP+ and QSFP28" style="zoom:45%;" />
+    <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/education-Singlemode-vs-multimode-lg.jpg" align=left alt="What is the difference between single mode vs. multimode fiber?- TC  Communications" style="zoom:50%;" /> <img src="https://www.glsunmall.com/resource/image/guideImage/transceivers.jpg" align=right alt="Differences Between SFP, SFP+, SFP28, QSFP+ and QSFP28" style="zoom:45%;" />
 
   
 
@@ -313,7 +313,7 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 ### Softwareprodukte
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/fff1090_w.jpg" align=left alt="Betriebssystem - Lexikon der Physik" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/fff1090_w.jpg" align=left alt="Betriebssystem - Lexikon der Physik" style="zoom:50%;" />
 
 
 
@@ -327,7 +327,7 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 ### Cloudlösungen
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/iaas-paas-saas-diagram5.1-1638x1046.png" align=left  alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/iaas-paas-saas-diagram5.1-1638x1046.png" align=left  alt="img" style="zoom:50%;" />
 
 
 
@@ -346,7 +346,7 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 | Eigenschaften                                                | Symbol                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| - Layer 3<br />- Verbindung von Netzen<br />- **IP-Adressen**<br />- IS-IS, OSPF, I- bzw. EGP, BGP als Protokoll<br />- Häufig als “Gateway” bezeichnet | <img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/router-1707641582464-27.png" align=left alt="router" style="zoom:25%;" /> |
+| - Layer 3<br />- Verbindung von Netzen<br />- **IP-Adressen**<br />- IS-IS, OSPF, I- bzw. EGP, BGP als Protokoll<br />- Häufig als “Gateway” bezeichnet | <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/router-1707641582464-27.png" align=left alt="router" style="zoom:25%;" /> |
 
 
 
@@ -354,7 +354,7 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 | Eigenschaften                                                | Symbol                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| - **Layer 2** (häufig mit L3 Funktionen wie VLAN-Routing etc.)<br />- Verbindung mehrere Netzelemente<br />- MAC Adressen<br />- **Forwarding** Rate in `packets/sec`. vs. **Switching** capacity in `Bit/sec`<br />- evt. **PoE**(+) Fähigkeiten<br />- **ARP-Speichergröße**: #speicherbare MAC-Adressen<br />- **Buffer Size**: Zwischenspeicher für Store-Forward Modus<br />- **Cut-Trough**: Weiterleitung ohne Prüfung der FCS (Frame Check Sequence)<br />- **Store-Forward**: Zwischenspeicherung d. Pakete und Berechnung d. Prüfsumme<br />- Bildung von **VLANs** für Sicherheit, Managing etc. | <img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/switch-1707641582464-28.png" align=left alt="switch" style="zoom:25%;" /> |
+| - **Layer 2** (häufig mit L3 Funktionen wie VLAN-Routing etc.)<br />- Verbindung mehrere Netzelemente<br />- MAC Adressen<br />- **Forwarding** Rate in `packets/sec`. vs. **Switching** capacity in `Bit/sec`<br />- evt. **PoE**(+) Fähigkeiten<br />- **ARP-Speichergröße**: #speicherbare MAC-Adressen<br />- **Buffer Size**: Zwischenspeicher für Store-Forward Modus<br />- **Cut-Trough**: Weiterleitung ohne Prüfung der FCS (Frame Check Sequence)<br />- **Store-Forward**: Zwischenspeicherung d. Pakete und Berechnung d. Prüfsumme<br />- Bildung von **VLANs** für Sicherheit, Managing etc. | <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/switch-1707641582464-28.png" align=left alt="switch" style="zoom:25%;" /> |
 
 
 
@@ -366,7 +366,7 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 #### Topologien
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/6230eed9d9792f3709c5ffd6_5f1086baa37c842a30184650_network-topology-types-diagram.png" alt="What is Network Topology? Definition and FAQs | HEAVY.AI" style="zoom: 25%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/6230eed9d9792f3709c5ffd6_5f1086baa37c842a30184650_network-topology-types-diagram.png" alt="What is Network Topology? Definition and FAQs | HEAVY.AI" style="zoom: 25%;" />
 
 
 
@@ -374,7 +374,7 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 #### OSI-Modell
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/seven-layers-of-OSI-model.png" align=left alt="TCP/IP vs. OSI: Was ist der Unterschied? | FS Community" style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/seven-layers-of-OSI-model.png" align=left alt="TCP/IP vs. OSI: Was ist der Unterschied? | FS Community" style="zoom: 80%;" />
 
 `1-7 englisch`: **P**hysiker **D**ie **N**icht **T**rinken **S**ind **P**otentielle **A**ttentäter 
 
@@ -452,13 +452,13 @@ $$ R = \frac{U}{I} $$​
 
 ### Bedarfsanalyse
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Bedarfsanalyse-Zielgruppe-oder-Stakholder-und-ihre-Bedarfe.png" align=left alt="Bedarfsanalyse" style="zoom: 33%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Bedarfsanalyse-Zielgruppe-oder-Stakholder-und-ihre-Bedarfe.png" align=left alt="Bedarfsanalyse" style="zoom: 33%;" />
 
 
 
 ### Lasten- Pflichtenheft
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Lastenheft-Pflichtenheft-1707641582469-31.png" align=left alt="Lastenheft-Pflichtenheft" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Lastenheft-Pflichtenheft-1707641582469-31.png" align=left alt="Lastenheft-Pflichtenheft" style="zoom: 50%;" />
 
 
 
@@ -519,7 +519,7 @@ $$ R = \frac{U}{I} $$​
 
 ### Formatierung/ Partitionierung
 
-![image-20240210165340532](/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/image-20240210165340532.png)
+![image-20240210165340532](https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/image-20240210165340532.png)
 
 - **Aufteilung e. Festplatte** in mehrere versch. Partitionen z.B
   Partition 1 für BIOS/GRUB Informationen
@@ -528,7 +528,7 @@ $$ R = \frac{U}{I} $$​
 - **Dateisystem = Formatierung** e. Partition: ntfs, ext4, fat32…
 - Jede phys. Festplatte besitzt mind. eine Partition mit einem Dateisystem, mehre Partitionen auch möglich
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/image-20240210165806009.png" align=left alt="image-20240210165806009" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/image-20240210165806009.png" align=left alt="image-20240210165806009" style="zoom: 50%;" />
 
 
 
@@ -568,7 +568,7 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 # Hostname | IPv4 | MAC-Adresse | Netzwerkinterface
 ```
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/ARP-table-diagram.png" align=left alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/ARP-table-diagram.png" align=left alt="img" style="zoom:50%;" />
 
 
 
@@ -576,7 +576,7 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 
 ## 4.6 Programmiersprachen
 
-<img src="/home/johannes/Dokumente/Berufschule/Abschlussprüfung/img/Execution-Flow.jpg" align=left alt="Executable Generation Flow" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Execution-Flow.jpg" align=left alt="Executable Generation Flow" style="zoom: 67%;" />
 
 - **Linker**: fasst Code zusammen (auch ext. Liraries) und kreiert ausführbare Datei
 
@@ -592,19 +592,19 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 
 ### Datentypen & Strukturen
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/ds-introduction2.png" align=left alt="What are Data Structures? Definition and Types - javatpoint" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/ds-introduction2.png" align=left alt="What are Data Structures? Definition and Types - javatpoint" style="zoom:80%;" />
 
 
 
 ### Kontrollstrukturen
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/control-structures-in-c.jpg" align=left alt="C++ Control Structures | Conditonal & Loops - Simple Snippets" style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/control-structures-in-c.jpg" align=left alt="C++ Control Structures | Conditonal & Loops - Simple Snippets" style="zoom: 80%;" />
 
 
 
 ### Klassen & Vererbung
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/wJrAh11ciqUZ-uVxplOWnnX03ofWdb5EoJzZQBm3LCEkoLKZJ6u2IbMl9CcrG0qFsNfLwGfPey3QSCKpr3lgyG-FJOrvaqcFvNhCSW4MqSaEZucjcf4Vg9tEELsd3OnNDUYlGx52mGvcN6SKJPLkndGSMBGutNgqFsZnDaVtR4omVdla.png" align=left alt="Inheritance training in Java (in quite simple language) - ShopingServer Wiki" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/wJrAh11ciqUZ-uVxplOWnnX03ofWdb5EoJzZQBm3LCEkoLKZJ6u2IbMl9CcrG0qFsNfLwGfPey3QSCKpr3lgyG-FJOrvaqcFvNhCSW4MqSaEZucjcf4Vg9tEELsd3OnNDUYlGx52mGvcN6SKJPLkndGSMBGutNgqFsZnDaVtR4omVdla.png" align=left alt="Inheritance training in Java (in quite simple language) - ShopingServer Wiki" style="zoom: 67%;" />
 
 
 
@@ -619,7 +619,7 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 
 ### Logikgatter
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/1.png" align=left alt="schoolphysics ::Welcome::" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/1.png" align=left alt="schoolphysics ::Welcome::" />
 
 
 
@@ -637,13 +637,13 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 
 ### PAP
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/9606a172-7cc7-4db3-a7a3-6c32a8b0bc63-1707645516999-13.png" align=left alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/9606a172-7cc7-4db3-a7a3-6c32a8b0bc63-1707645516999-13.png" align=left alt="img" style="zoom:50%;" />
 
 
 
 ### UML
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/sw-architektur-62304-2.png" align=left alt="UML Unified Modeling Language: Nicht nur für Software-Architekturen" style="zoom:48%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/sw-architektur-62304-2.png" align=left alt="UML Unified Modeling Language: Nicht nur für Software-Architekturen" style="zoom:48%;" />
 
 - Wird durch Sprache, ähnlich wie LaTex/Markdown erstellt, 
 - ER-Diagramm ist mehr oder weniger eine visuelle Repräsentation
@@ -652,7 +652,7 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 
 ### Struktogramm
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/8c04d2a1-92ea-400e-9971-0eded7e84bf7.png" align=left alt="img" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/8c04d2a1-92ea-400e-9971-0eded7e84bf7.png" align=left alt="img" style="zoom:60%;" />
 
 
 
@@ -660,7 +660,7 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 
 ## 4.8 Datenbankgrundlagen
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/fa13d8b2dc34239e95059ff1b.png" align=left alt="img" style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/fa13d8b2dc34239e95059ff1b.png" align=left alt="img" style="zoom: 80%;" />
 
 **Datenintegrität** = Daten sind in sich und übergreifend widerspruchsfrei
 
@@ -682,7 +682,7 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 
 ### ER-Modelle
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/b3f971d63740325083623c474.jpg" align=left alt="img" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/b3f971d63740325083623c474.jpg" align=left alt="img" style="zoom:67%;" />
 
 
 
@@ -744,7 +744,7 @@ HAVING Anzahl > 10;
 
 ### PDCA-Plan
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/grafik-pdca-zyklus-001-lexoffice-1024x706.webp" align=left alt="PDCA-Zyklus: Plan-Do-Check-Act einfach erklärt!" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/grafik-pdca-zyklus-001-lexoffice-1024x706.webp" align=left alt="PDCA-Zyklus: Plan-Do-Check-Act einfach erklärt!" style="zoom: 67%;" />
 
 
 
@@ -805,7 +805,7 @@ HAVING Anzahl > 10;
 
 ## 6.2 Schutzbedarfsanalyse
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Abb_2_09_Varianten.png" align=left alt="BSI - Lerneinheit 2.9: Wahl der Vorgehensweise" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Abb_2_09_Varianten.png" align=left alt="BSI - Lerneinheit 2.9: Wahl der Vorgehensweise" />
 
 - Analyse, **welche** **Bereiche** d. Unternehmens **welchen** **Schutz** erfordern. 
 
@@ -814,7 +814,7 @@ HAVING Anzahl > 10;
 
 **Ablauf** e. Schutzbedarfsanalyse:
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/738x415_f5f5f5.jpg" align=left alt="Der übliche Ablauf einer Schutzbedarfsanalyse." style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/738x415_f5f5f5.jpg" align=left alt="Der übliche Ablauf einer Schutzbedarfsanalyse." style="zoom: 80%;" />
 
 Gute [Seite](https://www.computerwoche.de/a/it-sicherheit-das-kalkulierte-risiko) dazu.
 
@@ -826,7 +826,7 @@ Gute [Seite](https://www.computerwoche.de/a/it-sicherheit-das-kalkulierte-risiko
 
   |                                                              |                                                              |                                                              |
   | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Abb_5_02_Schichtenmodell.png" align=left alt="Das Schichtenmodell des IT-Grundschutz-Kompendiums - Einzelheiten werden im Text erläutert." style="zoom: 50%;" /> | ISMS<br />ORP<br />CON<br /><br />OPS<br />DER<br />APP<br />SYS<br />IND<br />NET<br />INF<br /> | Sicheritsmanagement<br />Organisation und Personal<br />Konzeption und Vorgenehsweisen (Kryptokonzept, Datenschutz,<br />Datensicherung, Auswahl von Software, …)<br />Aufteilung d. Betriebs<br />Detektion und Reaktion v. sicherheitsrelevanten Ereignissen, Audits, IT-Forensik<br />Anwendungen (Browser, Webserver, Outlook, etcl.)<br />IT-Systeme (Server, Virtualisierung, Clients, Laptops, Handys)<br />Industrielle IT (Betriebs-/ Steuerungstechnik, Sensoren und Aktoren)<br />Netze und Kommunikation (Netzarchitektur und -design, Netzmanagement)<br />Infrastruktur (Gebäude, Serverräume, Verkabelung, Homeoffice) |
+  | <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Abb_5_02_Schichtenmodell.png" align=left alt="Das Schichtenmodell des IT-Grundschutz-Kompendiums - Einzelheiten werden im Text erläutert." style="zoom: 50%;" /> | ISMS<br />ORP<br />CON<br /><br />OPS<br />DER<br />APP<br />SYS<br />IND<br />NET<br />INF<br /> | Sicheritsmanagement<br />Organisation und Personal<br />Konzeption und Vorgenehsweisen (Kryptokonzept, Datenschutz,<br />Datensicherung, Auswahl von Software, …)<br />Aufteilung d. Betriebs<br />Detektion und Reaktion v. sicherheitsrelevanten Ereignissen, Audits, IT-Forensik<br />Anwendungen (Browser, Webserver, Outlook, etcl.)<br />IT-Systeme (Server, Virtualisierung, Clients, Laptops, Handys)<br />Industrielle IT (Betriebs-/ Steuerungstechnik, Sensoren und Aktoren)<br />Netze und Kommunikation (Netzarchitektur und -design, Netzmanagement)<br />Infrastruktur (Gebäude, Serverräume, Verkabelung, Homeoffice) |
 
 - **Schutzbedarfskategorien**
   - **normal**: Kein Imageverlust beim Kunden, Schaden unter 50.000€
@@ -868,7 +868,7 @@ Gute [Seite](https://www.computerwoche.de/a/it-sicherheit-das-kalkulierte-risiko
 | **Benötigte Versionen**          | nur das Neuste | das letzte Voll- und Teilbackup | das letzte Voll- und alle Teilbackups |
 | **Doppelt gespeicherte Dateien** | sehr viele     | einige                          | keine                                 |
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/types-of-backup-full-differential-incremental.png" align=left  alt="A basic graphic displaying the difference between full backup, differential backup, and incremental backup." style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/types-of-backup-full-differential-incremental.png" align=left  alt="A basic graphic displaying the difference between full backup, differential backup, and incremental backup." style="zoom: 80%;" />
 
 
 
@@ -887,7 +887,7 @@ Zwei **Festplatten** (eigentlich [Partitionen](### Formatierung/ Partitionierung
 
 |                                                              | Vorteil                                                      | Nachteil                                                     | Berechnung d. Speicherplatzes |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------- |
-| <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/1280px-RAID_0.svg-1707843979228-10.png" alt="undefined" style="zoom: 25%;" /> | **hohe Lesegeschwindigkeit**<br />–> es kann von beiden Platten gleichzeitig gelesen werden<br /><br />**höhere Schreibgeschwindigkeit**<br />–> es muss nur 1/2 der Daten auf jede Platte geschrieben werden | Der Ausfall einer Platte führt zu einem **Totalausfall**<br /><br />Die Partitionsgröße orientiert sich an der kleineren Festplatte -> `3TB + 2TB = 4TB` nutzbarer Speicher | $$TB_{Platte} \times 2$$      |
+| <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/1280px-RAID_0.svg-1707843979228-10.png" alt="undefined" style="zoom: 25%;" /> | **hohe Lesegeschwindigkeit**<br />–> es kann von beiden Platten gleichzeitig gelesen werden<br /><br />**höhere Schreibgeschwindigkeit**<br />–> es muss nur 1/2 der Daten auf jede Platte geschrieben werden | Der Ausfall einer Platte führt zu einem **Totalausfall**<br /><br />Die Partitionsgröße orientiert sich an der kleineren Festplatte -> `3TB + 2TB = 4TB` nutzbarer Speicher | $$TB_{Platte} \times 2$$      |
 
 
 
@@ -897,7 +897,7 @@ Zwei **Festplatten** werden 1:1 **gespiegelt**. Beide Partitionen müssen gleich
 
 |                                                              | Vorteil                                                      | Nachteil                                                     | Berechnung d. Speicherplatzes |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------- |
-| <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/1280px-RAID_1.svg.png" alt="undefined" style="zoom: 25%;" /> | **hohe Lesegeschwindigkeit**<br />–> es kann von beiden Platten gleichzeitig gelesen werden<br /><br />**Sehr hohe Redundanz**<br />–> Eine Platte darf ausfallen<br /><br />wenig Zeit zur Wiederherstellung benötigt | Es kann nur die Hälfte des verfügbaren Speicherplatzes genutzt werden<br /><br />Die Partitionsgröße orientiert sich an der kleineren Festplatte -> `3TB + 2TB = 2TB` nutzbarer Speicher | $$TB_{Platte} : 2$$           |
+| <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/1280px-RAID_1.svg.png" alt="undefined" style="zoom: 25%;" /> | **hohe Lesegeschwindigkeit**<br />–> es kann von beiden Platten gleichzeitig gelesen werden<br /><br />**Sehr hohe Redundanz**<br />–> Eine Platte darf ausfallen<br /><br />wenig Zeit zur Wiederherstellung benötigt | Es kann nur die Hälfte des verfügbaren Speicherplatzes genutzt werden<br /><br />Die Partitionsgröße orientiert sich an der kleineren Festplatte -> `3TB + 2TB = 2TB` nutzbarer Speicher | $$TB_{Platte} : 2$$           |
 
 
 
@@ -907,7 +907,7 @@ Die Datei wird in mehrere Teile (Hier 3) aufgeteilt und verteilt gespeichert. Zu
 
 |                                                              | Vorteil                                                      | Nachteil                                                     | Berechnung d. Speicherplatzes                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------- |
-| <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/2560px-RAID_5.svg.png" alt="undefined" style="zoom:50%;" /> | **hohe Lesegeschwindigkeit**<br />–> es kann von mehreren Platten gleichzeitig gelesen werden<br /><br />**Sehr hohe Redundanz**<br />–> gleiche Redundanz wie Raid 1 bei geringeren Kosten/Redundanz<br /><br />**Mehr Speicherplatz** bei gleicher Redundanz im Vergleich zu RAID 1 | Es wird bei der Wiederherstellung **Rechenzeit** benötigt<br /><br />Alle Partitionen müssen gleich groß sein | $$(\#_{Festplatten} - 1) \times TB_{Platte}$$ |
+| <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/2560px-RAID_5.svg.png" alt="undefined" style="zoom:50%;" /> | **hohe Lesegeschwindigkeit**<br />–> es kann von mehreren Platten gleichzeitig gelesen werden<br /><br />**Sehr hohe Redundanz**<br />–> gleiche Redundanz wie Raid 1 bei geringeren Kosten/Redundanz<br /><br />**Mehr Speicherplatz** bei gleicher Redundanz im Vergleich zu RAID 1 | Es wird bei der Wiederherstellung **Rechenzeit** benötigt<br /><br />Alle Partitionen müssen gleich groß sein | $$(\#_{Festplatten} - 1) \times TB_{Platte}$$ |
 
 
 
@@ -918,7 +918,7 @@ Streng genommen kein RAID. Alle Festplatten (unbegrenzt) werden in ihrer vollen 
 
 |                                                              | Vorteil                                                      | Nachteil                                                     | Berechnung d. Speicherplatzes                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- |
-| <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/1920px-JBOD.svg.png" alt="undefined" style="zoom: 25%;" /> | Nutzung aller verfügbaren Festplatten in ihrer vollen Größe<br /><br />kein Stripping (Zerteilung der Dateien) wie bei RAID 0 | Keine Redundanz<br /><br />Bei einem Plattenausfall gehen alle Daten der betroffenen Platte verloren | $$TB_{Platte_1} + TB_{Platte_2} + TB_{Platte_n}$$ |
+| <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/1920px-JBOD.svg.png" alt="undefined" style="zoom: 25%;" /> | Nutzung aller verfügbaren Festplatten in ihrer vollen Größe<br /><br />kein Stripping (Zerteilung der Dateien) wie bei RAID 0 | Keine Redundanz<br /><br />Bei einem Plattenausfall gehen alle Daten der betroffenen Platte verloren | $$TB_{Platte_1} + TB_{Platte_2} + TB_{Platte_n}$$ |
 
 
 
@@ -927,7 +927,7 @@ Streng genommen kein RAID. Alle Festplatten (unbegrenzt) werden in ihrer vollen 
 Es ist auch möglich mehrere RAID-Typen zu mischen. So kann aus zwei RAID 0 Verbünden ein RAID 1 Verbund erstellt werden.
 Auch ein RAID 15 etc. ist somit möglich *(wird teilw. auch genutzt)*. Für mehr Infos ist dieser [Wikipedia-Artikel](https://de.wikipedia.org/wiki/RAID) sehr interessant.
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/1920px-RAID_10.svg.png" alt="undefined" style="zoom:13%;" /><img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/RAID_51.png" alt="undefined" style="zoom:40%;" />        
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/1920px-RAID_10.svg.png" alt="undefined" style="zoom:13%;" /><img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/RAID_51.png" alt="undefined" style="zoom:40%;" />        
 
 
 
@@ -939,9 +939,9 @@ Auch ein RAID 15 etc. ist somit möglich *(wird teilw. auch genutzt)*. Für mehr
 
 | Name                    | Schutz bei                                                   | Umschaltzeit | Funktionsweise                                               |                                                              |
 | ----------------------- | ------------------------------------------------------------ | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Offline USV**         | Netzausfall<br />große Über-/ Unterspannung                  | 3-10ms       | Weiterleitung der Netzspannung. Bei Netzausfall wird auf Batteriebetrieb umgeschalten. <br />Gibt die Netzspannung ungefiltert durch. evtl. schädlich für empfindliche Geräte | ![img](/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Akkurat-Offline-USV@741x-8-600x283.png) |
-| **Netzinteraktive USV** | Netzausfall<br />Über-/ Unterspannung<br />Schwankungen der Netzspannung | < 4ms        | Weiterleitung und “Glättung” der Netzspannung. Zusätzlich werden Schwankungen ausgeglichen. | ![img](/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Akkurat-Line-Interactive-USV-600x304.png) |
-| **Online USV**          | Netzausfall<br />Über-/ Unterspannung<br />Schwankungen der Netzspannung und Netzfrequenz | keine        | Die eingehende Netzspannung wird konstant gefiltert und geglättet. Spannungsspitzen und -täler werden durch die Batterie ausgeglichen. Auch Frequenzsschwankungen werden ausgeglichen. | <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Akkurat-Online-USV-600x334.png" alt="img"  /> |
+| **Offline USV**         | Netzausfall<br />große Über-/ Unterspannung                  | 3-10ms       | Weiterleitung der Netzspannung. Bei Netzausfall wird auf Batteriebetrieb umgeschalten. <br />Gibt die Netzspannung ungefiltert durch. evtl. schädlich für empfindliche Geräte | ![img](https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Akkurat-Offline-USV%40741x-8-600x283.png) |
+| **Netzinteraktive USV** | Netzausfall<br />Über-/ Unterspannung<br />Schwankungen der Netzspannung | < 4ms        | Weiterleitung und “Glättung” der Netzspannung. Zusätzlich werden Schwankungen ausgeglichen. | ![img](https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Akkurat-Line-Interactive-USV-600x304.png) |
+| **Online USV**          | Netzausfall<br />Über-/ Unterspannung<br />Schwankungen der Netzspannung und Netzfrequenz | keine        | Die eingehende Netzspannung wird konstant gefiltert und geglättet. Spannungsspitzen und -täler werden durch die Batterie ausgeglichen. Auch Frequenzsschwankungen werden ausgeglichen. | <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Akkurat-Online-USV-600x334.png" alt="img"  /> |
 
 Online USVen sind logischerweise wesentlich teurer und rentieren sich nur bei empfindlicher oder hochverfügbarer IT-Hardware. Eine Netzinteraktive USV ist meist der Kompromiss zwischen den anderen beiden Varianten. 
 
