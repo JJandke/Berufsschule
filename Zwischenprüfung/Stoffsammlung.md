@@ -193,7 +193,7 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 
 
-###           Vertragsgestaltung
+### Vertragsgestaltung
 
 ![Screenshot_20240208-164551](https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Screenshot_20240208-164551-1707641582463-26.png)
 
@@ -991,9 +991,18 @@ Ich glaube aber nicht, dass die zweite Aufgabe gefragt wird, da das im Endeffekt
 
 ## 7.1 Vertragsarten
 
+Siehe [Vertragsgestaltung](### Vertragsgestaltung)
+
 
 
 ## 7.2 Unternehmensleitbild
+
+**Bestandteile:**
+
+- **Slogan**: beschreibt kurz und Prägnant das Selbstverständnis d. Unternehmens
+- **Vision**: beschreibt Ziele die das Unternehmen erreichen will. Sollten nicht unbedingt realistisch sein
+- **Mission**: Zweck, den das Unternehmen verfolgt
+- **Unternehmenskultur/ -philosophie**: Umgang miteinadner (innerhalb und außerhalb d. Unternehmens)
 
 
 
