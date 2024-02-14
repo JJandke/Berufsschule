@@ -2,7 +2,25 @@
 typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
 ---
 
+>  **Präambel:**
+>
+> Dies ist ein Versuch den gesamten Stoff für die IHK-Zwischenprüfung (FiSi etc.) zusammenzufassen. 
+> Als Grundgerüst dient die Themengliederung der IHK. Inhaltlich wurden Hefteinträge aus der Berufsschule, Websiten und eigenes Wissen genutzt. 
+> Sicherlich ist diese Übersicht keineswegs vollständig und zu 100% richtig, wenngleich ich mir größte Mühe dabei gebe. 
+> Änderungsvorschläge können gerne per [Issue auf GitHub](https://github.com/JJandke/Berufsschule/issues) eingereicht werden.
+>
+> Dieses Dokument existiert in mehreren Versionen. Es ist wahlweise als gerendertes **Markdown** über die Plattform [Hedgedoc](http://80.158.77.0:3000/) `(http!)` aufrufbar. Diese bietet den Vorteil eines dauerhaft präsenten Inhaltsverzeichnisses. 
+> Eine Weitere Version steht *(noch nicht, ist jedoch in Arbeit und soll bis morgen Abend fertig sein)* als **HTML** zu Verfügung `(http!)` Hier ist die Formatierung (vor allem die Größe der Bilder und manche Formeln) besser. Allerdings existiert nur ein Inhaltsverzeichnis am Anfang der Seite. 
+> Die dritte Möglichkeit besteht darin den [Markdown-Quellcode](https://github.com/JJandke/Berufsschule/blob/master/Zwischenpr%C3%BCfung/Stoffsammlung.md) selbst zu kompilieren. Dazu empfehle ich die Software [Typora](https://typora.io/). 
+>
+> Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
+>
+> Timestamp: `14-02-2024 20:38`
+
+
+
 # Inhaltsverzeichnis
+
 [TOC]
 
 
