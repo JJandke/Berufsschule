@@ -15,7 +15,7 @@ typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
 >
 > Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
-> Timestamp: `15-02-2024 13:54`
+> Timestamp: `15-02-2024 14:51`
 
  
 
@@ -556,8 +556,32 @@ $$ R = \frac{U}{I} $$​
 ## 4.4 Lizenzmodelle
 
 - **EULA** (End User License Agreement): Lizenztvereinbarung, der der Nutzer zustimmen muss.
+  - Endbenutzer-Lizenzvereinbarung
+  - Lizenvereinbarung zwischen Hersteller einer Software & Endbenutzer
+  - Endbenutzer muss Vereinbarung vor Nutzung der Software zustimmen
+  - legt detailliert Rechte & Einschränkungen fest, die für die Nutzung der Software gelten
+  - WICHTIG ist der Begriff: "nutzen" --> keine Eigentumsrechte an der Software
+
+
+
+
 - **OEM** für den Weiterverkauf z.B. ein Dell-Rechner mit vorinstalliertem Windoof
+  - Original Equipment Manufacturer / Originalausrüstungshersteller / Erstausrüster
+  - rein lizenztechnisch ist Verkauf von OEM-Software nur in Verbindung mit Hardware erlaubt
+  - Beispiel: Microsoft verkauft günsitgere OEM-Versionen von Windows 10 an Hersteller, die dann aber vertraglich die Software mit dem neuen PC ausliefern müssen
+
+
+
 - **GNU GPL** Copyright-Richtlinie für Open-Source Projekte(Ausführung, Änderung, Erweiterung,  Wiederverwendung –> *nur mit gleichem Lizenzmodell*)
+  - GNU GPL --> GNU General Public License
+  - Copyright-Richtlinie für Open-Source-Software
+  - beschreibt wie Nutzer das Programm kopieren, modifizieren & weitergeben dürfen
+
+**Generell:**
+
+- beidseitiger Vertrag, indem der Inhaber bestimmter Produkte seine Rechte bezüglich des Produktes vollumfänglich oder nur zum Teil auf einen anderen übertragt
+- darin wird geregelt, wie häufig, in welchem Umfang & wo die Produkte eingesetzt werden dürfen
+- meist zeitlich begrenzt --> sobald Vertrag endet darf das Produkt nicht weiter genutzt werden
 
 
 
