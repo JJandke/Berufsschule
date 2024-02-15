@@ -15,7 +15,7 @@ typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
 >
 > Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
-> Timestamp: `15-02-2024 14:51`
+> Timestamp: `15-02-2024 17:58`
 
  
 
@@ -855,6 +855,16 @@ HAVING Anzahl > 10;
 - Definition personenbezogener Daten:
 
   > alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person [...] beziehen
+
+- **Datenminimierung**: Personenbezogene Daten müssen dem **Zweck** **angemessen** und auf das dadurch notwendige Maß beschränkt sein
+- **Zweckbindung**: nur für festgelegte, eindeutige & legitime Zwecke verwendbar –> z.B. Nutzeradresse nicht für Werbung
+- **Verbot mit Erlaubnisvorbehalt**
+  - Generell besteht ein Verbot der Nutzung & Verarbeitung von personenbezogenen Daten
+  - Daten dürfen nur genutzt &/oder verarbeitet werden, wenn eine Erlaubnis erteilt wurde *(z. B. durch Bestätigung der betroffenen Person oder weil die Verarbeitung zur Vertragserfüllung notwendig ist)*
+- **Datenrichtigkeit**: Daten müssen sowohl **sachlich** als auch **inhaltlich** korrekt & aktuell sein
+- **Rechtmäßigkeit & Transparenz**: Daten müssen nachvollziehbar rechtmäßig verarbeitet werden
+- **Datenintegrität/-vertraulichkeit & -sicherheit (TOM)**: *Siehe unten*
+- **Speicherbegrenzung** Speicherung in einer Form, die die Identifizierung der betroffenen Personen nur so lange ermöglicht, wie es für den Verwendungszweck nötig ist
 
 
 
