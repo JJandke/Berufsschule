@@ -15,13 +15,41 @@ typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
 >
 > Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
-> Timestamp: `15-02-2024 13:25`
+> Timestamp: `15-02-2024 13:54`
 
 
+
+Folgende Themen fehlen noch in der Struktur und werden noch hinzugefügt:
+
+- Strom/Netzteilberechnung
+- Übertragungsdauer berechnen
+- Definition VPN
+- Typen von Malware
+- IPV6
 
 # Inhaltsverzeichnis
 
 [TOC]
+
+
+
+> [!TIP]
+>
+> **Ein paar lernenswerte Themen:**
+>
+> - OSI-Modell
+> - `ifconfig` und `arp-a`
+> - IPv6
+> - VPNs
+> - Rechnung: Übertragungsgeschwindigkeit, `Bit` vs. `Byte`
+> - Rechnung: Netzteil
+> - Malwareformen
+> - It-Service Formen
+> - CAD-Arbeitsplatz (Ergonomie)
+> - Steckertypen
+> - Kaufvertrag
+
+
 
 
 
@@ -391,6 +419,8 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 ### Netzwerkprotokolle
 
 #### OSI-Modell
+
+
 
 <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/seven-layers-of-OSI-model.png" align=left alt="TCP/IP vs. OSI: Was ist der Unterschied? | FS Community" style="zoom: 80%;" />
 
@@ -865,10 +895,14 @@ Gute [Seite](https://www.computerwoche.de/a/it-sicherheit-das-kalkulierte-risiko
 
 ## 6.4 Umsetzung d. Sicherheitskonzepts
 
+
+
 - **IT-Sicherheitsmanagement** (s.o., Grundlagen zu Passwort-Policy etc.)
 - **Technische, Infrastrukturelle Schutzmaßnahmen**: Zugangs- und Zugriffskontrolle (Sowohl Gebäude als auch interne Software-Tools), Netzwerksicherheit, Aufstellen von [Honeypots](https://www.kaspersky.de/resource-center/threats/what-is-a-honeypot), Implementierung von LDAP, VPN-Zugriff, Verschlüsselung d. Daten, regelm. Updates, abgeschottete Serverumgebung (keine direkte Verbindung zw. zentr. Datenspeicher und Internet), …
 - **Security by Design/ Default**: z.B. sind per Default alle Ports an einer Firewall blockiert, nur bei bedarf werden die benötigten Ports für genau definierte IPs freigegeben, es wird grundsätzlich verboten sich im Firmennetz am LDAP-Server anzumelden, nur explizit registrierte MAC-Adressen dürfen sich anmelden etc.
 - Falls es drankommt: SSH vs. Telnet. Telnet ist ungefähr so sicher wie Bungeejumping an Gummibärchenschlangen. Also NEIN!
+
+
 
 
 
