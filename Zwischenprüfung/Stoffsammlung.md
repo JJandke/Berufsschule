@@ -15,7 +15,7 @@ typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
 >
 > Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
-> Timestamp: `15-02-2024 17:58`
+> Timestamp: `15-02-2024 21:31`
 
  
 
@@ -846,6 +846,23 @@ HAVING Anzahl > 10;
 - Anti-Spam Filter
 - Privacy/ Security by Design
 
+#### Arten von Malware
+
+Es empfiehlt sich sehr, die verlinkten Artikel zu den einzelnen Typen zu lesen. Nicht für die ASP aber fü’s eigene Leben, dass am am Satus-Quo ist, was derzeit so passiert… 
+
+<img src="https://private-user-images.githubusercontent.com/97919825/305091860-13046b0c-ced8-49c3-8b81-1c13fdf76240.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDgwMjc4MDksIm5iZiI6MTcwODAyNzUwOSwicGF0aCI6Ii85NzkxOTgyNS8zMDUwOTE4NjAtMTMwNDZiMGMtY2VkOC00OWMzLThiODEtMWMxM2ZkZjc2MjQwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjE1VDIwMDUwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1ZjlhNDMzZTI4NjkyMzg4MDM0YTAzODY2YTA3NjY3ZDE4ZmZiZjJmOGMxODVjOGUzZDY3Zjk5NWQ3ZTJiZGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.a-eMkzCajxjBya80f2h7f4s1QagzeTNgi8CVhkMIllA" align=left alt="image" />
+
+- **Hacking**: gezieltes Ausnutzung von Sicherheitslücken, Umgehen von Sicherungsmechanismen
+- **Malware**: "malicious" (bösartig) & "software, häufig Handlung des Benutzers erforderlich
+- **[Ransomware](https://de.wikipedia.org/wiki/Lockbit#:~:text=Lockbit%20ist%20eine%20russischsprachige%20Gruppe,auch%20ein%20Affiliate%2DProgramm%20besteht.)**: Verschlüsselung aller Dateien. Erpressung (meist Bitcoin, Ether) damit die Dateien nicht veröffentlich und entschlüsselt werden
+- **[Spyware](https://de.wikipedia.org/wiki/Pegasus_(Spyware))**: unbemerktes Sammeln von Nutzerinfirmationen (Tastatureingaben, Zwischenspeicher, Screen-Capture…)
+- **Adware**: Ungewünschte Werbung (Chip-Softwaredownload) meist durch [Black Paterns](https://de.wikipedia.org/wiki/Dark_Pattern) initiiert 
+- **[Würmer](https://de.wikipedia.org/wiki/WannaCry)**: verbreitet sich selbst durch’s Netzwerk, USB-Sticks etc. Meist Ausnutzung von ([Zero-Day](https://www.kaspersky.de/resource-center/definitions/zero-day-exploit)) Sicherheitslücken
+- **[Trojaner](https://de.wikipedia.org/wiki/Emotet)**: Tarnung als legitime Software, läd andere Schadsoftware nach
+- **[Botnets](https://de.wikipedia.org/wiki/Mirai_(Computerwurm))**: Werden durch andere Schadsoftware erstellt. Z.B. ein Wurm breitet sich aus und macht alle “berfallenen” Geräte zum Mitglied eines Botnetzes, dieses wird für DDoS-Attacken genutzt (durch automatische Skripte)
+- **[DDos](https://www.zdnet.com/article/aws-said-it-mitigated-a-2-3-tbps-ddos-attack-the-largest-ever/)** (Distributet Denial-of-Service): Oft durch Botnetze durchgefürht, da mehr Netzwerkpower. Durch verschiedene Methoden wird das Ziel in die Knie gezwungen. Z.B. Syn-Flooding etc. 
+- **Phishing**: Versuch über gefälschte Websites, E-Mails etc. an vertrauenswürdige Daten zu kommen um noch bessere Phishing Attacken oder weitere Schadsoftware zu implementieren
+
 
 
 ### Datenschutzgesetze
@@ -931,9 +948,10 @@ Gute [Seite](https://www.computerwoche.de/a/it-sicherheit-das-kalkulierte-risiko
 
 
 
-- **IT-Sicherheitsmanagement** (s.o., Grundlagen zu Passwort-Policy etc.)
+- **IT-Sicherheitsmanagement** (s.o., Grundlagen zu Passwort-Policy etc. Sensibilisierung zum Thema Phishing, Testweise konzerninterne Alibi Phishingmails versenden und Mitarbeiter die drauf reinfallen gleich ne IT-Security Schulung zuweisen 
 - **Technische, Infrastrukturelle Schutzmaßnahmen**: Zugangs- und Zugriffskontrolle (Sowohl Gebäude als auch interne Software-Tools), Netzwerksicherheit, Aufstellen von [Honeypots](https://www.kaspersky.de/resource-center/threats/what-is-a-honeypot), Implementierung von LDAP, VPN-Zugriff, Verschlüsselung d. Daten, regelm. Updates, abgeschottete Serverumgebung (keine direkte Verbindung zw. zentr. Datenspeicher und Internet), …
 - **Security by Design/ Default**: z.B. sind per Default alle Ports an einer Firewall blockiert, nur bei bedarf werden die benötigten Ports für genau definierte IPs freigegeben, es wird grundsätzlich verboten sich im Firmennetz am LDAP-Server anzumelden, nur explizit registrierte MAC-Adressen dürfen sich anmelden etc.
+- DNS-/IP-Blocking bekannter Server von Schadsoftware bzw. Controlserver von Botnetzen
 - Falls es drankommt: SSH vs. Telnet. Telnet ist ungefähr so sicher wie Bungeejumping an Gummibärchenschlangen. Also NEIN!
 
 
