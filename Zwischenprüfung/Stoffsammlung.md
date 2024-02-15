@@ -1,5 +1,5 @@
 ---
-typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
+typora-copy-images-to: /img
 ---
 
 >  **Präambel:**
@@ -15,7 +15,7 @@ typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
 >
 > Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
-> Timestamp: `15-02-2024 21:31`
+> Timestamp: `15-02-2024 21:46`
 
  
 
@@ -850,7 +850,7 @@ HAVING Anzahl > 10;
 
 Es empfiehlt sich sehr, die verlinkten Artikel zu den einzelnen Typen zu lesen. Nicht für die ASP aber fü’s eigene Leben, dass am am Satus-Quo ist, was derzeit so passiert… 
 
-<img src="https://private-user-images.githubusercontent.com/97919825/305091860-13046b0c-ced8-49c3-8b81-1c13fdf76240.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDgwMjc4MDksIm5iZiI6MTcwODAyNzUwOSwicGF0aCI6Ii85NzkxOTgyNS8zMDUwOTE4NjAtMTMwNDZiMGMtY2VkOC00OWMzLThiODEtMWMxM2ZkZjc2MjQwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjE1VDIwMDUwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1ZjlhNDMzZTI4NjkyMzg4MDM0YTAzODY2YTA3NjY3ZDE4ZmZiZjJmOGMxODVjOGUzZDY3Zjk5NWQ3ZTJiZGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.a-eMkzCajxjBya80f2h7f4s1QagzeTNgi8CVhkMIllA" align=left alt="image" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/Types-of-Malware-DE.pngwidth%3D664%26height%3D474%26name%3DTypes-of-Malware-DE.png" align=left alt="Malware | Definition und Funktionsweise | Avast" />
 
 - **Hacking**: gezieltes Ausnutzung von Sicherheitslücken, Umgehen von Sicherungsmechanismen
 - **Malware**: "malicious" (bösartig) & "software, häufig Handlung des Benutzers erforderlich
