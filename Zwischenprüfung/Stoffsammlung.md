@@ -17,7 +17,7 @@ typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
 >
 > Timestamp: `15-02-2024 13:54`
 
-
+ 
 
 Folgende Themen fehlen noch in der Struktur und werden noch hinzugefügt:
 
