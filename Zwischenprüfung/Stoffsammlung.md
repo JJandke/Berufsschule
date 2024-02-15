@@ -11,11 +11,11 @@ typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
 >
 > Dieses Dokument existiert in mehreren Versionen. Es ist wahlweise als gerendertes **Markdown** über die Plattform [**Hedgedoc**](http://hedgedoc.ddns.net:3000/s/SwqeuauoT) `(http!)` aufrufbar. Diese bietet den Vorteil eines dauerhaft präsenten Inhaltsverzeichnisses. 
 > Eine Weitere Version steht als **[HTML](http://hedgedoc.ddns.net/)** zu Verfügung `(http!)` Hier ist die Formatierung *(vor allem die Größe der Bilder und manche Formeln)* besser. Allerdings existiert nur ein Inhaltsverzeichnis am Anfang der Seite. 
-> Die dritte Möglichkeit besteht darin den [Markdown-Quellcode](https://github.com/JJandke/Berufsschule/blob/master/Zwischenpr%C3%BCfung/Stoffsammlung.md) selbst zu kompilieren. Dazu empfehle ich die Software [Typora](https://typora.io/). 
+> Die dritte Möglichkeit besteht darin den [Markdown-Quellcode](https://github.com/JJandke/Berufsschule/blob/master/Zwischenpr%C3%BCfung/Stoffsammlung.md) selbst zu rendern. Dazu empfehle ich die Software [Typora](https://typora.io/). 
 >
 > Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
-> Timestamp: `15-02-2024 11:14`
+> Timestamp: `15-02-2024 11:17`
 
 
 
