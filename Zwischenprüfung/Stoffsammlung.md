@@ -15,7 +15,7 @@ typora-copy-images-to: ../GitHub/Berufsschule/Zwischenprüfung/img
 >
 > Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
-> Timestamp: `15-02-2024 11:17`
+> Timestamp: `15-02-2024 13:25`
 
 
 
@@ -695,6 +695,8 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 **Vorgangs, Funktions, Prozessintegration** = Ist dann gegeben, wenn mehrere Abteilungen die eigenen Vörgänge eines Prozesses abwickeln.
 
 **Voraussetzung** für integrierte Informationsverarbeitung = **geeignetes Datenbankverwaltungssystem** ([DBMS](https://de.wikipedia.org/wiki/Liste_der_Datenbankmanagementsysteme) = Datenbankmanagementsystem)
+
+
 
 
 
