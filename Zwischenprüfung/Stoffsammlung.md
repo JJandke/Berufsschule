@@ -675,7 +675,7 @@ $$ R = \dfrac{U}{I} $$​
 
 ### Netzwerkanbindung, Ip-Konfiguration
 
-#### ifconfig
+#### ifconfig/ ipconfig
 
 Gibt Auskunft über die IP-Konfiguration des Hosts. Es können wahlweise alle Netzwerkschnittstellen oder nur Einzelne (wie in diesem Beispiel `eth0`) angezeigt werden. Auf Windoof heißt der Befehl `ipconfig`.
 
@@ -710,6 +710,32 @@ pi.hole (192.168.28.77) at e4:7a:11:a1:ec:af [ether] on eth0
 ```
 
 <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/ARP-table-diagram.png" align=left alt="img" style="zoom:50%;" />
+
+
+
+#### dig
+
+Wird verwendet um DNS-Auflösungen anzufordern. Z.B. Domain zu IP-Adresse
+
+```java
+╭─user@host ~ 
+╰─$ dig telekom.de // Domain, von der ich die IP-Adresse möchte 
+[...]
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;telekom.de.			IN	A
+
+;; ANSWER SECTION:
+telekom.de.		600	IN	A	80.158.67.40 // IP-Adresse hinter telekom.de
+
+;; Query time: 35 msec
+;; SERVER: 192.168.28.77#53(192.168.28.77) (UDP) // DNS-Server, der meine Anfrage beantwortet hat
+;; WHEN: Fri Feb 16 21:26:59 CET 2024
+;; MSG SIZE  rcvd: 55
+```
+
 
 
 
