@@ -1,21 +1,22 @@
 ---
 typora-copy-images-to: /img
+
 ---
 
 >  **Präambel:**
 >
-> Dies ist ein Versuch den gesamten Stoff für die IHK-Zwischenprüfung (FiSi etc.) zusammenzufassen. 
-> Als Grundgerüst dient die Themengliederung der IHK. Inhaltlich wurden Hefteinträge aus der Berufsschule, Websiten und eigenes Wissen genutzt. 
-> Sicherlich ist diese Übersicht keineswegs vollständig und zu 100% richtig, wenngleich ich mir größte Mühe dabei gebe. 
-> Änderungsvorschläge können gerne per [Issue auf GitHub](https://github.com/JJandke/Berufsschule/issues) eingereicht werden.
+>  Dies ist ein Versuch den gesamten Stoff für die IHK-Zwischenprüfung (FiSi etc.) zusammenzufassen. 
+>  Als Grundgerüst dient die Themengliederung der IHK. Inhaltlich wurden Hefteinträge aus der Berufsschule, Websiten und eigenes Wissen genutzt. 
+>  Sicherlich ist diese Übersicht keineswegs vollständig und zu 100% richtig, wenngleich ich mir größte Mühe dabei gebe. 
+>  Änderungsvorschläge können gerne per [Issue auf GitHub](https://github.com/JJandke/Berufsschule/issues) eingereicht werden.
 >
-> Dieses Dokument existiert in mehreren Versionen. Es ist wahlweise als gerendertes **Markdown** über die Plattform [**Hedgedoc**](http://hedgedoc.ddns.net:3000/s/SwqeuauoT) `(http!)` aufrufbar. Diese bietet den Vorteil eines dauerhaft präsenten Inhaltsverzeichnisses. 
-> Eine Weitere Version steht als **[HTML](http://hedgedoc.ddns.net/)** zu Verfügung `(http!)` Hier ist die Formatierung *(vor allem die Größe der Bilder und manche Formeln)* besser. Allerdings existiert nur ein Inhaltsverzeichnis am Anfang der Seite. 
-> Die dritte Möglichkeit besteht darin den [Markdown-Quellcode](https://github.com/JJandke/Berufsschule/blob/master/Zwischenpr%C3%BCfung/Stoffsammlung.md) selbst zu rendern. Dazu empfehle ich die Software [Typora](https://typora.io/). 
+>  Dieses Dokument existiert in mehreren Versionen. Es ist wahlweise als gerendertes **Markdown** über die Plattform [**Hedgedoc**](http://hedgedoc.ddns.net:3000/s/SwqeuauoT) `(http!)` aufrufbar. Diese bietet den Vorteil eines dauerhaft präsenten Inhaltsverzeichnisses. 
+>  Eine Weitere Version steht als **[HTML](http://hedgedoc.ddns.net/)** zu Verfügung `(http!)` Hier ist die Formatierung *(vor allem die Größe der Bilder und manche Formeln)* besser. Allerdings existiert nur ein Inhaltsverzeichnis am Anfang der Seite. 
+>  Die dritte Möglichkeit besteht darin den [Markdown-Quellcode](https://github.com/JJandke/Berufsschule/blob/master/Zwischenpr%C3%BCfung/Stoffsammlung.md) selbst zu rendern. Dazu empfehle ich die Software [Typora](https://typora.io/). 
 >
-> Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
+>  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
-> Timestamp: `16-02-2024 08:36`
+>  Timestamp: `16-02-2024 08:47`
 
  
 
@@ -359,6 +360,15 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 ### Softwareprodukte
 
 <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/fff1090_w.jpg" align=left alt="Betriebssystem - Lexikon der Physik" style="zoom:50%;" />
+
+**Methoden des Softwaretestings**
+
+- **Black-Box-Test**:
+  --> Tester testet ohne Kenntnisse über die innere Funktionsweise bzw. Implementierung des Systems das Verhalten bzw. die Funktionen testet
+- **White-Box-Test**:
+  --> richtet Blick auf den implementierten Algorithmus & überprüft die Korrektheit des Quellcodes
+
+
 
 
 
@@ -877,13 +887,20 @@ Es empfiehlt sich sehr, die verlinkten Artikel zu den einzelnen Typen zu lesen. 
   > alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person [...] beziehen
 
 - **Datenminimierung**: Personenbezogene Daten müssen dem **Zweck** **angemessen** und auf das dadurch notwendige Maß beschränkt sein
+
 - **Zweckbindung**: nur für festgelegte, eindeutige & legitime Zwecke verwendbar –> z.B. Nutzeradresse nicht für Werbung
+
 - **Verbot mit Erlaubnisvorbehalt**
+
   - Generell besteht ein Verbot der Nutzung & Verarbeitung von personenbezogenen Daten
   - Daten dürfen nur genutzt &/oder verarbeitet werden, wenn eine Erlaubnis erteilt wurde *(z. B. durch Bestätigung der betroffenen Person oder weil die Verarbeitung zur Vertragserfüllung notwendig ist)*
+
 - **Datenrichtigkeit**: Daten müssen sowohl **sachlich** als auch **inhaltlich** korrekt & aktuell sein
+
 - **Rechtmäßigkeit & Transparenz**: Daten müssen nachvollziehbar rechtmäßig verarbeitet werden
+
 - **Datenintegrität/-vertraulichkeit & -sicherheit (TOM)**: *Siehe unten*
+
 - **Speicherbegrenzung** Speicherung in einer Form, die die Identifizierung der betroffenen Personen nur so lange ermöglicht, wie es für den Verwendungszweck nötig ist
 
 
@@ -898,11 +915,11 @@ Es empfiehlt sich sehr, die verlinkten Artikel zu den einzelnen Typen zu lesen. 
 
 - Weitere **Schutzziele**:
   - **Authenticity** (*Authentizität*): Echtheit, Vertrauenswürdigkeit von Daten –> digitale signaturen z.B. in PDFs, HTTPS
-  
+
   - **Accountability vs. Anonymity** (*Zurechenbarkeit vs. Anonymität*): (keine) Rückführung auf einzelne Person mögl. z.B. Usertracking auf Insta vs. anonymes surfen durch [Tor](https://de.wikipedia.org/wiki/Tor_(Netzwerk))
 
   - **Resilence** (*Resilenz*): Widerstandsfähigkeit ggü. Ausspähungen, irrtümlichen oder mutwilligen Beschädigungen –> Loadbalancer, DDos-Schutz…
-  
+
 - BSI IT-Grundschutz: Katalog mit grundlegenden Sicherheitsanforderungen
 
 
@@ -933,6 +950,7 @@ Gute [Seite](https://www.computerwoche.de/a/it-sicherheit-das-kalkulierte-risiko
   | <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Abb_5_02_Schichtenmodell.png" align=left alt="Das Schichtenmodell des IT-Grundschutz-Kompendiums - Einzelheiten werden im Text erläutert." style="zoom: 50%;" /> | ISMS<br />ORP<br />CON<br /><br />OPS<br />DER<br />APP<br />SYS<br />IND<br />NET<br />INF<br /> | Sicheritsmanagement<br />Organisation und Personal<br />Konzeption und Vorgenehsweisen (Kryptokonzept, Datenschutz,<br />Datensicherung, Auswahl von Software, …)<br />Aufteilung d. Betriebs<br />Detektion und Reaktion v. sicherheitsrelevanten Ereignissen, Audits, IT-Forensik<br />Anwendungen (Browser, Webserver, Outlook, etcl.)<br />IT-Systeme (Server, Virtualisierung, Clients, Laptops, Handys)<br />Industrielle IT (Betriebs-/ Steuerungstechnik, Sensoren und Aktoren)<br />Netze und Kommunikation (Netzarchitektur und -design, Netzmanagement)<br />Infrastruktur (Gebäude, Serverräume, Verkabelung, Homeoffice) |
 
 - **Schutzbedarfskategorien**
+
   - **normal**: Kein Imageverlust beim Kunden, Schaden unter 50.000€
   - **hoch**: Ansehen wird erheblich beeinträchtigt, 50.000€ < Schaden < 500.000€
   - **sehr hoch**: Ansehen wird grundlegend und nachhaltig beschädigt, Schaden > 500.000€
