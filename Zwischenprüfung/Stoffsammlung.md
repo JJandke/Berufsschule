@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `16-02-2024 20:53`
+>  Timestamp: `16-02-2024 21:19`
 
  
 
@@ -1037,7 +1037,7 @@ Gute [Seite](https://www.computerwoche.de/a/it-sicherheit-das-kalkulierte-risiko
 
 > [!NOTE]
 >
-> Entgegen der medialen Werbung schützt ein VPN nicht vor Hackern, Angriffen oder ähnlichem. Es ist lediglich dafür nutzbar, Traffic von einem Ort zu einem anderen zu routen, ohne dass die Zwischenstationen etwas mitkriegen. 
+> [Entgegen der medialen Werbung schützt ein VPN nicht vor Hackern, Angriffen oder ähnlichem.](https://www.youtube.com/watch?v=vq6j47k1whw) Es ist lediglich dafür nutzbar, Traffic von einem Ort zu einem anderen zu routen, ohne dass die Zwischenstationen etwas mitkriegen. 
 >
 > Es ist richtig, dass VPNs den Traffic verschlüsseln. Das tut aber SSL (also HTTP**S**) ohnehin schon. Heißt, man würde nur eh schon verschlüsselten Traffic nochmal verschlüsseln. Das macht die ganze Geschichte langsam. Es würde also nur was bringen, wenn man auf HTTP-Seiten surft.
 > Und ja, es ist zwar nur die Kommunikation mit den Websites, nicht aber die DNS-Anfrage verschlüsselt (Zumindest zu 88%). Ein VPN bringt dann aber nur, dass zwar nicht der Anbieter des WLANs (z.B. Cafee) sondern eben der VPN-Provider deine DNS-Anfragen mitließt. Irgendwer muss ja die Seiten auflösen. 
@@ -1051,6 +1051,12 @@ Gute [Seite](https://www.computerwoche.de/a/it-sicherheit-das-kalkulierte-risiko
 > Außerdem kann man natürlich mit VPNs Geoblocking umgehen. 
 >
 > Wenn man wirklich anonym surfen will, sollte man [Tor](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/index.html) verwenden. Und nein, das hat an sich nix mit dem Darknet *(uhh gruselig ( ⚆ _ ⚆ ) )* zu tun…
+
+Aaaalso. Genug gemotzt, wie funktioniert ein VPN?
+
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/vpn.jpg" align=left alt="vpn" style="zoom: 40%;" />
+
+Möchte man z.B. Remote-Arbeiter und weitere Geschäftsstellen an das Firmennetz anbinden, baut man ein (am besten redundantes) [VPN Netz](https://www.mpcservice.com/mpls/mpls-vpn-oder-ipsec-vpn/) auf. Hier wird entweder direkt am Client oder am VPN-Server/ Router der Traffic verschlüsselt und gezielt zum Ziel (Anderer Router, in anderer Geschäftsstelle) geroutet. 
 
 
 
