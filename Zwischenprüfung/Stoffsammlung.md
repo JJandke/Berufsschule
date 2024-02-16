@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
->  Timestamp: `16-02-2024 08:47`
+>  Timestamp: `16-02-2024 08:53`
 
  
 
@@ -363,10 +363,15 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 **Methoden des Softwaretestings**
 
-- **Black-Box-Test**:
-  --> Tester testet ohne Kenntnisse über die innere Funktionsweise bzw. Implementierung des Systems das Verhalten bzw. die Funktionen testet
-- **White-Box-Test**:
-  --> richtet Blick auf den implementierten Algorithmus & überprüft die Korrektheit des Quellcodes
+- **Black-Box-Test:**Testet die Funktionalität einer Software, ohne Kenntnisse über die interne Struktur. Fokus auf den Input und die erwartete Ausgabe.
+- **White-Box-Test:**Prüft die interne Struktur einer Software, einschließlich des Codes.Ziele sind Codeabdeckung, Pfadüberdeckung und Strukturanalyse.
+- **Komponententest:**Einzelne Softwarekomponenten werden isoliert getestet.Ziel ist die Überprüfung der Korrektheit und Funktionalität jeder Komponente.
+- **Unittest:**Testet einzelne Einheiten (z. B. Funktionen oder Methoden) des Quellcodes.Fokussiert auf die Isolation und Überprüfung kleiner Codeabschnitte.
+- **Modultest:**Prüft, ob Module oder Teile eines Systems korrekt zusammenarbeiten.Umfasst mehrere Einheiten, die eine bestimmte Funktionalität bieten.
+- **Integrationstest:**Überprüft die Interaktion zwischen verschiedenen Komponenten oder Modulen.Ziel ist es, Fehler in der Kommunikation und Zusammenarbeit aufzudecken.
+- **Systemtest:**Testet das gesamte System als Ganzes.Überprüft, ob alle Komponenten integriert funktionieren und die Anforderungen erfüllen.
+- **Abnahmetest:**Kunden oder Benutzer führen Tests durch, um sicherzustellen, dass die Software ihren Anforderungen entspricht.Ziel ist die Bestätigung der Benutzerfreundlichkeit und Erfüllung der Anforderungen.
+- **Lasttest:**Simuliert eine hohe Belastung, um die Leistungsfähigkeit eines Systems zu überprüfen.Identifiziert Engpässe und Probleme unter Stressbedingungen.
 
 
 
