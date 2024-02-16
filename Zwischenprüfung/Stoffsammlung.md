@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
->  Timestamp: `16-02-2024 11:33`
+>  Timestamp: `16-02-2024 16:33`
 
  
 
@@ -1136,6 +1136,8 @@ Siehe [Vertragsgestaltung](### Vertragsgestaltung)
 - **Mission**: Zweck, den das Unternehmen verfolgt
 - **Unternehmenskultur/ -philosophie**: Umgang miteinadner (innerhalb und außerhalb d. Unternehmens)
 
+–> soll für positives Image in der Öffentlichkeit sorgen
+
 
 
 ## 7.3 Leistungsdokumentation
@@ -1143,39 +1145,45 @@ Siehe [Vertragsgestaltung](### Vertragsgestaltung)
 - Kontinuierliche Prüfung d. vertraglich vereinbarten Vorgaben
 - Stillegung von Altsystemen, Inbetriebname von Neuen
 - Archivierung von Daten
-- Vollständige Doku erbrachter Leistungen
+- Vollständige Doku erbrachter Leistungen siehe [Arten der Dokumentation](### Arten der Dokumentation)
 
 
 
 ## 7.4 Umsetzung der Leistungserbringung
 
-- Leistungserbringung vor Ort vs. Remote
-- Kundenvorgaben bei Leistungserbringung: Termin, Erfüllungsort
-- techn. Voraussetzungen
-- Rolloutprozesse: Vorbereitung (Onboarding d. Kunden, Schulung)
+- **Leistungserbringung** vor Ort vs. Remote
+  - **Vor Ort**: einfacher Einstieg da Teamkontakt, gute Kommunikation, fördert Kreativität  –> gut bei Projektanfang, schweren Phasen
+  - **Remote**: geringere Kosten, weniger Stress, bessere Auswahl an Mitarbeitern, flexibleres arbeiten –> Während einem längeren Projekt
 
-- **Ertragsziele:**
-  - alles was mit den begriffen Umsatz, Gewinn & Kapital zusammenhängt
-- **Marktziele:**
-  - definiert der Unternehmer selbst, indem er festlegt, welchen gewünschten Marktanteil er haben möchte bzw. welche Steigerung des Marktanteils er für sich in Aussicht stellt
-- **Leistungsziel:**
-  - gewisse Qualitätsstandards
-  - Sicherstellung der Arbeitsplätze
+- **Kundenvorgaben** bei Leistungserbringung: Termin, Erfüllungsort, Spezifikationen
+- techn. **Voraussetzungen** klären
+- **Rolloutprozesse**: Vorbereitung (Onboarding d. Kunden, Scope definieren, Schulung auf z.B. neue Software) Formailitäten
+
+- **Ertragsziele:** alles was mit den begriffen Umsatz, Gewinn & Kapital zusammenhängt
+- **Marktziele:** vom Unternehmen selbst festgelegt, was es erreichen möchte
+- **Leistungsziel:** gewisse Qualitätsstandards, Sicherstellung der Arbeitsplätze
 
 
 
 ## 7.5 Leistungserbringung gem. Aufbauorganisation
 
-Mehrlinien, Einliniensystem, Matrixorganisation
+Siehe [Organisationsformen](### Organisationsformen)
+
+- **Anpassung an** jew. **Organisationsform** (Wer entscheidet welchen Schritt, wirkt an welchem Teilprojekt mit, etc.)
 
 
 
 ## 7.6 Veränderungsprozesse
 
-- Motivierte Herangehensweise, betonung v. Chancen
-- Identifizierung, Darstellung v. Veränderungsschritten
-- Einbeziehung d. Mitarbeiter in Veränderungsprozess 
-- Ursachen v. Widerständen gg. Veränderung: Angst vor Kompetenzverlust, Wissenslücken, pers. Historie
+Wie kann Veränderung richtig kommuniziert und begleitet werden?
+
+- **Motivierte** Herangehensweise, **betonung** v. **Chancen**
+- Identifizierung, Darstellung v. **Veränderungsschritten**
+- **Einbeziehung** d. Mitarbeiter in Veränderungsprozess 
+  - Mitarbeiter(neu)qualifizierung
+  - Erkennen von Bremsern/ Skeptikern und Förderern
+
+- **Ursachen** **von** **Widerständen** gg. Veränderung: Angst vor Kompetenzverlust, Wissenslücken, pers. Historie
 
 
 
@@ -1184,8 +1192,18 @@ Mehrlinien, Einliniensystem, Matrixorganisation
 ### Inhalt d. Abnahmeprotokolls
 
 - Gegenstand der Abnahme
-- beteiligte Personen
+
+- beteiligte Personen (mit ihrer Funktion)
+
 - Ort, Datum und Uhrzeit
+
+- Art und Ergebnis der Prüfungen
+
+- Vereinbarte Maßnahmen zur Nacherfüllung
+
+- Nicht geprüfte Kriterien
+
+  
 
 ### Arten der Dokumentation
 
@@ -1193,20 +1211,54 @@ Mehrlinien, Einliniensystem, Matrixorganisation
 - Schnittstellendokumentation
 - Netzwerkdokumentation
 - Testprotokolle
+- Programmdokumentation (z.B. im Code)
+
+
 
 ### Mängel, -arten
 
-- Schlechtleistung
-- Falschlieferung
-- Minderlieferung
+- Schlechtleistung –> fehlende Funktionalität
+- Falschlieferung –> Software erfüllt nicht den geforderten Zweck
+- Minderlieferung –> Software erfüllt nicht alle beschriebenen Anforderungen
 
 
 
 ## 7.8 Leistungserbringung bewerten
 
-- Soll-Ist Vergleich
-- Bestätigung erbr. Leistungen
-- Abweichungsanalyse
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/grafik-soll-ist-vergleich-ablauf-002-1024x706.webp" align=left alt="Ablauf eines Soll-Ist-Vergleichs" style="zoom: 67%;" />
+
+**Soll-Ist Vergleich**
+
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/herobild_510x340_76.jpg" align=left alt="Plan-Ist-Vergleich" style="zoom: 50%;" />     1 und 2 werden einmalig durchgeführt
+
+​     3, 4 und 5 wer während dem Projekt mehrmals wiederholt
+
+
+
+
+
+1. Ziele Setzen und planen –> Was soll erreicht werden
+2. Werter erfassen –> wann ist das Projekt erfolgreich
+3. Soll-Ist-Vergleich erstellen –> Werte aus 1 und 2 werden den aktuellen Werten gegenüber gestellt 
+4. Abweichungen analysieren –> Ursache muss ausfindig gemacht werden
+5. Maßnahmen etablieren –> 
+6. Erfolge messen
+
+
+
+**Bestätigung erbr. Leistungen**
+
+- Anhand von konkreten Zielen: SMART
+
+
+
+**Abweichungsanalyse**
+
+während Punkt 4, Unterscheidung in mehrere Gruppen z.B.:
+
+- **Kostenstelle**nabweichungen
+- Abweichungen in der **Erlösrechnung** 
+- Abweichungen der **Beschaffungsseite**
 
 
 
