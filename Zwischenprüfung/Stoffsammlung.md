@@ -14,7 +14,7 @@ typora-copy-images-to: /img
 >  Eine Weitere Version steht als **[HTML](http://hedgedoc.ddns.net/)** zu Verfügung `(http!)` Hier ist die Formatierung *(vor allem die Größe der Bilder und manche Formeln)* besser. Allerdings existiert nur ein Inhaltsverzeichnis am Anfang der Seite. 
 >  Die dritte Möglichkeit besteht darin den [Markdown-Quellcode](https://github.com/JJandke/Berufsschule/blob/master/Zwischenpr%C3%BCfung/Stoffsammlung.md) selbst zu rendern. Dazu empfehle ich die Software [Typora](https://typora.io/). 
 >
->  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version. Tendenziell ist die HTML-Version die aktuellste, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
+>  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
 >  Timestamp: `16-02-2024 18:00`
 
@@ -440,6 +440,30 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 
 
+### Einheiten der Informatik
+
+Ein ungeschriebener Standard ist, dass **Speichergrößen** (Datei bzw. Ornder) in **Byte** `B` angegeben werden, da man mind. 8 Bit benötigt um ein Zeichen z.B. `A` zu speichern.
+
+**Übertragungsgeschwindigkeiten** beim Kopieren von Dateien werden in **Byte/s** `B/s` angegeben .
+Anders ist das bei **Netzwerkgeschwindigkeiten**, diese werden in **bit/s** `b/s` angegeben. 
+Das rührt daher, dass bei Dateiübertragungen interessant ist, wie viel einer Datei pro Sekunde übertragen werden kann, während bei Netzwerkgeschwindigkeiten das physische Übertragen der einzelnen Bits ([Leitungscodierung](https://www.elektroniktutor.de/internet/codes.html)) interessiert. 
+
+
+
+**Binär- vs. Dezimalsystem** (oder was Microsoft nachwievor falsch macht…)
+
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/ukuran-penyimpanan-data-byte.png" align=left alt="img" />
+
+Binär: $$2^x$$ 													Dezimal: $$10^x$$ 
+
+
+
+**Übertragungsdauer**
+
+
+
+
+
 
 
 ## 3.3 Elektrotechnik
@@ -494,11 +518,11 @@ $$ R = \frac{U}{I} $$​
 
 ### Netzteil
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/power-supply-chart04.jpg" align=left alt="5 Things to Pay Attention to When Choosing A Power Supply" style="zoom: 33%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/power-supply-chart04.jpg" align=left alt="5 Things to Pay Attention to When Choosing A Power Supply" style="zoom: 33%;" />
 
 |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/image-20240216175251134.png" align=left alt="image-20240216175251134" style="zoom: 25%;" /> | - Aufteilung in mehrere Schienen, da sonst die Kabel zu dick werden<br /><br />- Maximallast (700W) darf nicht überschritten werden, auch wenn Summe der Einzelströme größer ist |
+| <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/image-20240216175251134.png" align=left alt="image-20240216175251134" style="zoom: 25%;" /> | - Aufteilung in mehrere Schienen, da sonst die Kabel zu dick werden<br /><br />- Maximallast (700W) darf nicht überschritten werden, auch wenn Summe der Einzelströme größer ist |
 
 
 
