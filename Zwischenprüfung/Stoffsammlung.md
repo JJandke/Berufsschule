@@ -15,7 +15,7 @@ typora-copy-images-to: /img
 >
 > Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
-> Timestamp: `15-02-2024 21:46`
+> Timestamp: `16-02-2024 07:46`
 
  
 
@@ -368,6 +368,11 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 | Pro                                                          | Contra                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | - Stromersparnis (Weniger physi. Hardware)<br />- weniger Platzverbrauch<br />- schnelle Serverprovisionierung (Einrichtung, Bereitstellung)<br />- Anpassung an Kundenwünsche<br />- geringe Ausfallzeiten, Redundanzen durch Cluster<br />- IT-Sicherheit z.B. Remote Desktop | - Viel Leistung benötigt<br />- schnelles Netzwerk benötigt<br />- manche (leistungsintensive) Programme nicht für Virutalisierung geeignet |
+
+- **Virtualisierung** Prozess,  Software zur Simulation von physischen Ressourcen
+- **Hypervisoren**: Programm dass  virtuelle Maschinen erstellen und ausführen kann
+
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/0uOG3TpWM2BlBYkbg.png" align=left alt="Type 1 and Type 2 Hypervisors: What Makes Them Different ..." style="zoom:50%;" />
 
 
 
