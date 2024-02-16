@@ -492,7 +492,7 @@ Rechnung:
 
 ### Wirkungsgrad
 
-$$\eta = \frac{\Delta E_{nutz}}{\Delta E_{zu}} \qquad \widehat{=} \qquad \eta = \frac{\Delta P_{nutz}}{\Delta P_{zu}}$$
+$$\eta = \dfrac{\Delta E_{nutz}}{\Delta E_{zu}} \qquad \widehat{=} \qquad \eta = \dfrac{\Delta P_{nutz}}{\Delta P_{zu}}$$
 
 | Bezeichner          | Name                   | Einheit    |
 | ------------------- | ---------------------- | ---------- |
@@ -528,7 +528,7 @@ $$W = P_{El} * t$$​
 
 ### Widerstand
 
-$$ R = \frac{U}{I} $$​
+$$ R = \dfrac{U}{I} $$​
 
 | Bezeichner | Name           | Einheit          |
 | ---------- | -------------- | ---------------- |
@@ -1143,7 +1143,7 @@ Ein Unternehmen betreibt ein Rechenzentrum, das aus vier Racks besteht. Jedes Ra
 
 **Berechnung der Autonomiezeit**: 
 
-> $$\frac{Batteriekapazität}{Leistung}$$ –> $$\frac{6kWh}{2,75kW \times 4} = 0,54h$$	// Berechnung in Stunden
+> $$\dfrac{Batteriekapazität}{Leistung}$$ –> $$\dfrac{6kWh}{2,75kW \times 4} = 0,54h$$	// Berechnung in Stunden
 >
 > $$60h \times 0,54 = 32min$$	// Umrechnung in Minuten
 
