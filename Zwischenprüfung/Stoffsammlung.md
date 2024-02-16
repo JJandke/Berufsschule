@@ -15,7 +15,7 @@ typora-copy-images-to: /img
 >
 > Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
-> Timestamp: `16-02-2024 07:46`
+> Timestamp: `16-02-2024 08:36`
 
  
 
@@ -24,7 +24,6 @@ Folgende Themen fehlen noch in der Struktur und werden noch hinzugefügt:
 - Strom/Netzteilberechnung
 - Übertragungsdauer berechnen
 - Definition VPN
-- Typen von Malware
 - IPV6
 
 # Inhaltsverzeichnis
@@ -425,12 +424,11 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 #### OSI-Modell
 
-
+[Erklärung und Video von SimpleClub](https://simpleclub.com/lessons/fachinformatikerin-grundlagen-osi-modell)
 
 <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/seven-layers-of-OSI-model.png" align=left alt="TCP/IP vs. OSI: Was ist der Unterschied? | FS Community" style="zoom: 80%;" />
 
 `1-7 englisch`: **P**hysiker **D**ie **N**icht **T**rinken **S**ind **P**otentielle **A**ttentäter 
-
 
 
 
