@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
->  Timestamp: `16-02-2024 10:33`
+>  Timestamp: `16-02-2024 11:33`
 
  
 
@@ -626,7 +626,7 @@ $$ R = \frac{U}{I} $$​
 
 #### ifconfig
 
-Gibt Auskunft über die IP-Konfiguration des Hosts. Es können wahlweise alle Netzwerkschnittstellen oder nur Einzelne (wie in diesem Beispiel `eth0`) angezeigt werden.
+Gibt Auskunft über die IP-Konfiguration des Hosts. Es können wahlweise alle Netzwerkschnittstellen oder nur Einzelne (wie in diesem Beispiel `eth0`) angezeigt werden. Auf Windoof heißt der Befehl `ipconfig`.
 
 ```sh
 ╭─user@host ~ 
@@ -1238,3 +1238,4 @@ Mehrlinien, Einliniensystem, Matrixorganisation
 
 
 
+ifcon
