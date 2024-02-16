@@ -738,6 +738,26 @@ telekom.de.		600	IN	A	80.158.67.40 // IP-Adresse hinter telekom.de
 
 
 
+#### traceroute/ tracert
+
+Unter Windoof `tracert`
+
+
+```java
+╭─user@host ~ 
+╰─$ traceroute google.de 
+traceroute to google.de (142.251.36.227), 30 hops max, 60 byte packets
+ 1  fritz.box (192.168.28.1)	// FritzBox daheim
+ 2  p3e9bf396.dip0.t-ipconnect.de (62.155.243.150)	// Router der Telekom 
+ 3  m-ef2-i.M.DE.NET.DTAG.DE (217.5.93.206)	// Router der Telekom 
+ 4  m-ef2-i.M.DE.NET.DTAG.DE (217.5.93.206)	// Router der Telekom 
+ 5  80.150.169.10	// Router der Telekom 
+ 6  192.178.105.183	// Router in den USA
+ 7  192.178.105.115	// Router in den USA
+ 8  216.239.63.97  108.170.228.33	// Router in den USA
+ 9  muc11s22-in-f3.1e100.net (142.251.36.227)	// Router von Google
+
+```
 
 
 
