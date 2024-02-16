@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `16-02-2024 20:22`
+>  Timestamp: `16-02-2024 20:53`
 
  
 
@@ -1029,7 +1029,28 @@ Gute [Seite](https://www.computerwoche.de/a/it-sicherheit-das-kalkulierte-risiko
 - **Technische, Infrastrukturelle Schutzmaßnahmen**: Zugangs- und Zugriffskontrolle (Sowohl Gebäude als auch interne Software-Tools), Netzwerksicherheit, Aufstellen von [Honeypots](https://www.kaspersky.de/resource-center/threats/what-is-a-honeypot), Implementierung von LDAP, VPN-Zugriff, Verschlüsselung d. Daten, regelm. Updates, abgeschottete Serverumgebung (keine direkte Verbindung zw. zentr. Datenspeicher und Internet), …
 - **Security by Design/ Default**: z.B. sind per Default alle Ports an einer Firewall blockiert, nur bei bedarf werden die benötigten Ports für genau definierte IPs freigegeben, es wird grundsätzlich verboten sich im Firmennetz am LDAP-Server anzumelden, nur explizit registrierte MAC-Adressen dürfen sich anmelden etc.
 - DNS-/IP-Blocking bekannter Server von Schadsoftware bzw. Controlserver von Botnetzen
-- Falls es drankommt: SSH vs. Telnet. Telnet ist ungefähr so sicher wie Bungeejumping an Gummibärchenschlangen. Also NEIN!
+- Falls es drankommt: **SSH vs. Telnet**. Telnet ist ungefähr so sicher wie Bungeejumping an Gummibärchenschlangen. Also **NEIN**!!!
+
+
+
+### VPNs
+
+> [!NOTE]
+>
+> Entgegen der medialen Werbung schützt ein VPN nicht vor Hackern, Angriffen oder ähnlichem. Es ist lediglich dafür nutzbar, Traffic von einem Ort zu einem anderen zu routen, ohne dass die Zwischenstationen etwas mitkriegen. 
+>
+> Es ist richtig, dass VPNs den Traffic verschlüsseln. Das tut aber SSL (also HTTP**S**) ohnehin schon. Heißt, man würde nur eh schon verschlüsselten Traffic nochmal verschlüsseln. Das macht die ganze Geschichte langsam. Es würde also nur was bringen, wenn man auf HTTP-Seiten surft.
+> Und ja, es ist zwar nur die Kommunikation mit den Websites, nicht aber die DNS-Anfrage verschlüsselt (Zumindest zu 88%). Ein VPN bringt dann aber nur, dass zwar nicht der Anbieter des WLANs (z.B. Cafee) sondern eben der VPN-Provider deine DNS-Anfragen mitließt. Irgendwer muss ja die Seiten auflösen. 
+>
+> Einen Sicherheitsvorteil bietet ein VPN also nur in zwei Fällen
+>
+> - du nutzt unverschlüsstelten Verkehr (Websites, Netzwerklaufwerke)
+> - Du hast den VPN-Server, zu dem die Verbindung aufgebaut wird, selbst gehostet und dieser löst DNS-Anfragen selbst auf oder leitet die via DoT oder DoH weiter.
+>
+> Ein riesiger Vorteil besteht natürlich darin, dass man mit einem VPN in z.B. das Firmen-/ Heimnetz kommt und auf Services zugreifen kann, die nicht im Internet sondern im lokalen Netz verfügbar sind. (Dann muss man z.B. das NAS daheim nicht fü’s Internet freigeben und ist so sicherer gegen Angriffe)
+> Außerdem kann man natürlich mit VPNs Geoblocking umgehen. 
+>
+> Wenn man wirklich anonym surfen will, sollte man [Tor](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/index.html) verwenden. Und nein, das hat an sich nix mit dem Darknet *(uhh gruselig ( ⚆ _ ⚆ ) )* zu tun…
 
 
 
