@@ -14,18 +14,11 @@ typora-copy-images-to: /img
 >  Eine Weitere Version steht als **[HTML](http://hedgedoc.ddns.net/)** zu Verfügung `(http!)` Hier ist die Formatierung *(vor allem die Größe der Bilder und manche Formeln)* besser. Allerdings existiert nur ein Inhaltsverzeichnis am Anfang der Seite. 
 >  Die dritte Möglichkeit besteht darin den [Markdown-Quellcode](https://github.com/JJandke/Berufsschule/blob/master/Zwischenpr%C3%BCfung/Stoffsammlung.md) selbst zu rendern. Dazu empfehle ich die Software [Typora](https://typora.io/). 
 >
->  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
+>  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version. Tendenziell ist die HTML-Version die aktuellste, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `16-02-2024 16:33`
+>  Timestamp: `16-02-2024 18:00`
 
  
-
-Folgende Themen fehlen noch in der Struktur und werden noch hinzugefügt:
-
-- Strom/Netzteilberechnung
-- Übertragungsdauer berechnen
-- Definition VPN
-- IPV6
 
 # Inhaltsverzeichnis
 
@@ -494,8 +487,20 @@ $$ R = \frac{U}{I} $$​
 | Bezeichner | Name           | Einheit          |
 | ---------- | -------------- | ---------------- |
 | $$R$$      | **Widerstand** | Ohm $$\ohm$$     |
-| $$         | **Spannung**   | Volt $$V$$ $$W$$ |
+| $$U$$      | **Spannung**   | Volt $$V$$ $$W$$ |
 | $$I$$      | **Strom**      | Ampere $$A$$     |
+
+
+
+### Netzteil
+
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/power-supply-chart04.jpg" align=left alt="5 Things to Pay Attention to When Choosing A Power Supply" style="zoom: 33%;" />
+
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/image-20240216175251134.png" align=left alt="image-20240216175251134" style="zoom: 25%;" /> | - Aufteilung in mehrere Schienen, da sonst die Kabel zu dick werden<br /><br />- Maximallast (700W) darf nicht überschritten werden, auch wenn Summe der Einzelströme größer ist |
+
+
 
 
 
@@ -852,8 +857,8 @@ HAVING Anzahl > 10;
 
 - IT-**Sicherheitsbeauftragter** im Betrieb
 - Erstellen von **Sicherheitsrichtlinien** –> für Passwörter etc.
-- **Schulungen** v. Mitarbeitern –> gegen Social Engineering 
-- Normen, [Branchenstandards](### Normen & Standrads) befolgen3
+- **Schulungen** v. Mitarbeitern –> gegen Social-Engineering 
+- Normen, [Branchenstandards](### Normen & Standrads) befolgen
 
 
 
