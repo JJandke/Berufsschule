@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess: Quellcode/Git –> Markdown –> HTML)*, verweise ich mit dem Timestamp auf die aktuell gezeigte Version.
 >
->  Timestamp: `16-02-2024 08:53`
+>  Timestamp: `16-02-2024 10:33`
 
  
 
@@ -1153,6 +1153,14 @@ Siehe [Vertragsgestaltung](### Vertragsgestaltung)
 - Kundenvorgaben bei Leistungserbringung: Termin, Erfüllungsort
 - techn. Voraussetzungen
 - Rolloutprozesse: Vorbereitung (Onboarding d. Kunden, Schulung)
+
+- **Ertragsziele:**
+  - alles was mit den begriffen Umsatz, Gewinn & Kapital zusammenhängt
+- **Marktziele:**
+  - definiert der Unternehmer selbst, indem er festlegt, welchen gewünschten Marktanteil er haben möchte bzw. welche Steigerung des Marktanteils er für sich in Aussicht stellt
+- **Leistungsziel:**
+  - gewisse Qualitätsstandards
+  - Sicherstellung der Arbeitsplätze
 
 
 
