@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `16-02-2024 18:00`
+>  Timestamp: `16-02-2024 20:22`
 
  
 
@@ -458,7 +458,29 @@ Binär: $$2^x$$ 													Dezimal: $$10^x$$
 
 
 
-**Übertragungsdauer**
+**Umrechnung Bit < – > Byte**
+
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/Imagen6-69ea70bd-7e92-4432-9c97-106f491415fb.jpg" align=left alt="Bits, Bytes, Mebibyte: ¿Qué son y cómo resolverlos?" style="zoom: 40%;" />
+
+
+
+**Übertragungsgeschwindigkeit**
+
+geg: Datei $$F = 1 GB$$, eigener Upload: $$U = 75,7 Mbit/s$$, serverseitiger Download: $$D = 10 Gbit/s$$
+
+ges: Übertragungszeit $$t$$
+
+Rechnung:
+
+> $$ 1 GB \times 8 \quad \widehat{=} \quad 8 Gbit$$	// Umrechnung in gleiche Einheiten
+>
+> $$\dfrac{8.000 Mbit} {75,7 Mbit/s} = 105,6s$$	// Umwandlung Gbit in Mbit und gleichzeitig durch den Upload (weil kleiner als Download) dividieren
+>
+> $$105,6 \div 60 \approx 2min$$	// Umrechnung in Minuten
+
+
+
+
 
 
 
