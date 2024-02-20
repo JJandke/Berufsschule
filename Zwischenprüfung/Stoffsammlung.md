@@ -746,6 +746,7 @@ Unter Windoof `tracert`
 ```java
 ╭─user@host ~ 
 ╰─$ traceroute google.de 
+//			  domain	 IP der Domain	  max. 30 Router befragen
 traceroute to google.de (142.251.36.227), 30 hops max, 60 byte packets
  1  fritz.box (192.168.28.1)	// FritzBox daheim
  2  p3e9bf396.dip0.t-ipconnect.de (62.155.243.150)	// Router der Telekom 
