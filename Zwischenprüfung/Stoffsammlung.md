@@ -1234,7 +1234,11 @@ Möchte man z.B. Remote-Arbeiter und weitere Geschäftsstellen an das Firmennetz
 
 > [!WARNING]
 >
-> RAID ist KEIN Backup!!!
+> **RAID ist KEIN Backup!!!**
+>
+> Wenn der Server abfackelt bringt dir auch ein noch so sicheres RAID nichts. RAID dient nur zur Minimierung der Ausfallwahrscheinlichkeit. Daher sollte die 3-2-1-Regel (s.o.) genutzt werden um sicher zu stellen, dass auch in ungünstigen Situationen keine Daten verloren gehen.
+
+
 
 #### RAID 0
 
