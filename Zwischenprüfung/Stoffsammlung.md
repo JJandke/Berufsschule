@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `21-02-2024 08:48`
+>  Timestamp: `21-02-2024 09:12`
 
  
 
@@ -453,6 +453,19 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 **L5**: evtl. falsches Protokoll (UDP, aber TCP erwartet…)
 **L6**: evtl. falsches Dateiformat (`.svg` statt `.png`) oder kein richtiger Schlüssel zum entschlüsseln der Daten
 **L7**: Ja, da kann n Haufen schief laufen…
+
+
+
+#### IPv6
+
+**Kürzen**:
+
+```shell
+2001:0DB8:0000:0000:0000:01DAF:0000:0000    # ursprüngliche IP-Adresse
+2001:DB8:0000:0000:0000:1DAF:0000:0000      # führende 0en wegkürzen
+2001:DB8::1DAF:0000:0000                    # die ersten, zusammenhängende 0er-Blöcke als :: kürzen
+2001:DB8::1DAF:0:0                          # alle restlichen 0er-Blöcke als :0 schreiben 
+```
 
 
 
