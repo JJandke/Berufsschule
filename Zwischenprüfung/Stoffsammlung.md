@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `21-02-2024 08:23ssssssssssss`
+>  Timestamp: `21-02-2024 08:48`
 
  
 
@@ -441,6 +441,18 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/seven-layers-of-OSI-model.png" align=left alt="TCP/IP vs. OSI: Was ist der Unterschied? | FS Community" style="zoom: 80%;" />
 
 `1-7 englisch`: **P**hysiker **D**ie **N**icht **T**rinken **S**ind **P**otentielle **A**ttentäter 
+
+
+
+**Mögliche Fehlerquellen auf den Schichtebenen**
+
+**L1**: Kabel defekt, nicht eingesteckt 
+**L2**: Wenn LEDs am RJ45-/ SFP-Port blinken, findet Datenübertragung statt. Wenn sie leuchten sagt das nicht zwingend was aus –> herstellerabhängig
+**L3**: IP-Adresse vergeben? –> Tools wie ipconfig, Wireshark zur Datenanalyse
+**L4**: evtl. falscher Port angesprochen. (HTTP = Port `80`, HTTPS: `443`, SSH: `22`, …)
+**L5**: evtl. falsches Protokoll (UDP, aber TCP erwartet…)
+**L6**: evtl. falsches Dateiformat (`.svg` statt `.png`) oder kein richtiger Schlüssel zum entschlüsseln der Daten
+**L7**: Ja, da kann n Haufen schief laufen…
 
 
 
