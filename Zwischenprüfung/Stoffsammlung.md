@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `21-02-2024 10:12`
+>  Timestamp: `21-02-2024 21:07`
 
  
 
@@ -30,17 +30,17 @@ typora-copy-images-to: /img
 >
 > **Ein paar lernenswerte Themen:**
 >
-> - OSI-Modell
-> - `ifconfig` und `arp-a`
-> - IPv6
-> - VPNs
-> - Rechnung: Übertragungsgeschwindigkeit, `Bit` vs. `Byte`
-> - Rechnung: Netzteil
-> - Malwareformen
-> - It-Service Formen
-> - CAD-Arbeitsplatz (Ergonomie)
-> - Steckertypen
-> - Kaufvertrag
+> - [OSI-Modell](####osi-modell)
+> - [Terminal-Befehle](####Netzwerkanbindung, Ip-Konfiguration)
+> - [IPv6](####IPv6)
+> - [VPNs](###VPNs)
+> - Rechnung: [Übertragungsgeschwindigkeit](#einheiten der informatik), `Bit` vs. `Byte`
+> - Rechnung: [Netzteil](#3.3 Elektrotechnik)
+> - [Malwareformen](#Arten von Malware)
+> - [It-Service Formen](#Cloudlösungen)
+> - [CAD-Arbeitsplatz](#2.2 Bedarfsanalyse) (Ergonomie)
+> - [Steckertypen](#IT-Systeme)
+> - [Kaufvertrag](#Vertragsgestaltung)
 
 
 
