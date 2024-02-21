@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `16-02-2024 21:55`
+>  Timestamp: `21-02-2024 08:23ssssssssssss`
 
  
 
@@ -112,6 +112,10 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 | ---------------------------------------------------------- | ------------------------------------------------------------ |
 | **Wasserfall**: Schritte werden nach und nach abgearbeitet | **Scrum**: kleines Team unter Leitung von Scrum Master (beseitigt Hürden)<br />arbeit in Sprints (zweiw. Zyklen), tägliche Meetings |
 |                                                            | **Kanban**: Arbeit mit Kanban Board –> Einteilung in z.B. ToDo \| In Progress \| On Hold \| Done |
+
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/NG_HPM1.png" align=left alt="Hybrides Projektmanagement" />
+
+
 
 
 
