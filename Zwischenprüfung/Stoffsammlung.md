@@ -10,11 +10,12 @@ typora-copy-images-to: /img
 >  Sicherlich ist diese Übersicht keineswegs vollständig und zu 100% richtig, wenngleich ich mir größte Mühe dabei gebe. 
 >  Änderungsvorschläge können gerne per [Issue auf GitHub](https://github.com/JJandke/Berufsschule/issues) eingereicht werden.
 >
->  Dieses Dokument existiert in mehreren Versionen. Es ist wahlweise als gerendertes **Markdown** über die Plattform [**Hedgedoc**](http://hedgedoc.ddns.net:3000/s/SwqeuauoT) `(http!)` aufrufbar. Diese bietet den Vorteil eines dauerhaft präsenten Inhaltsverzeichnisses. 
->  Eine Weitere Version steht als **[HTML](http://hedgedoc.ddns.net/)** zu Verfügung `(http!)` Hier ist die Formatierung *(vor allem die Größe der Bilder und manche Formeln)* besser. Allerdings existiert nur ein Inhaltsverzeichnis am Anfang der Seite. 
+>  Dieses Dokument existiert in mehreren Versionen.
+>  Die bester Version steht als **[HTML](http://hedgedoc.ddns.net/)** zu Verfügung `(http!)` Hier ist die Formatierung *(vor allem die Größe der Bilder und manche Formeln)* besser.
+>  Alternativ gibt kann man die Datei auch als gerendertes **Markdown** über die Plattform [**Hedgedoc**](http://hedgedoc.ddns.net:3000/s/SwqeuauoT) `(http!)` aufrufen. Diese bietet den Vorteil eines dauerhaft präsenten Inhaltsverzeichnisses, das jedoch nicht alle vorhandenen Überschriften abbildet.
 >  Die dritte Möglichkeit besteht darin den [Markdown-Quellcode](https://github.com/JJandke/Berufsschule/blob/master/Zwischenpr%C3%BCfung/Stoffsammlung.md) selbst zu rendern. Dazu empfehle ich die Software [Typora](https://typora.io/). 
 >
->  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
+>  Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
 >  Timestamp: `21-02-2024 21:31`
 
