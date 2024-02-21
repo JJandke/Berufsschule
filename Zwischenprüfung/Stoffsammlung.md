@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `21-02-2024 21:07`
+>  Timestamp: `21-02-2024 21:31`
 
  
 
@@ -665,6 +665,56 @@ $$ R = \dfrac{U}{I} $$​
   | **Updates<br />Wartung**    | meist reguläre Updates und sofortige Sicherheitspatches<br />–> hängt von Software/ Projekt ab<br />durch offenen Sourcecode weniger anfällig für Sicherheitslücken | (garantierte) reguläre Updates<br />meist sofortige Sicherheitspatches<br />kann unbekannte Sicherheitslücken enthalten |
   | **Flexibilität**            | meist frei veränder- anpassbar<br />kann auf eigene Bedürfnisse zugeschnitten werden | kein Zugang zum Quellcode, daher weniger flexibel            |
   | **Support**                 | bei Community-Projekten kaum Support<br />bei Produkten von Firmen (z.B. RHEL) guter Support –> Finanzierungsmodell | Normalerweise Kundensupport verfügbar                        |
+
+
+
+### Nützliche Linux-Befehle im Terminal
+
+```sh
+# Ausgabe des akt. Nutzers
+╭─user1@host ~ 
+╰─$ whoami          
+user1
+
+# Ausgabe, in welchem Verzeichnis man sich gerade befindet
+╭─user1@host ~ 
+╰─$ pwd
+/home/user1
+
+# Dateien/ Ordner im akt. Verzeichnis anzeigen
+╭─user@host ~ 
+╰─$ ls
+Bilder  Desktop  Downloads  readme.txt  Stoffsammlung.md
+
+# Auch versteckte Dateien/ Ordner anzeigen
+╭─user@host ~ 
+╰─$ ls -al
+Bilder  Desktop  Downloads  readme.txt  Stoffsammlung.md  .konfig  .geheimeDatei.deb
+
+# neuen Ordner erstellen
+╭─user@host ~ 
+╰─$ mkdir neuerOrdner  
+
+# neue Datei im vorher angelegtem, neuen Ordner erstellen
+╭─user@host ~
+╰─$ touch neuerOrdner/neueDatei.txt
+
+# In einen Ordner springen
+╭─user@host ~
+╰─$ cd neuerOrdner
+
+# Inhalt einer Datei ausgeben
+╭─user@host ~neuerOrdner
+╰─$ cat neueDatei.txt
+
+# Datei kopieren
+╭─user@host ~neuerOrdner
+╰─$ cp neueDatei.txt neueNeueDatei.txt
+
+# Datei umbenennen (mit '&&' zwei Befehle gleichzeitig ausführen)
+╭─user@host ~neuerOrdner
+╰─$ mv neueDatei.txt alteDatei.txt && mv neueNeueDatei.txt neueDatei.txt
+```
 
 
 
