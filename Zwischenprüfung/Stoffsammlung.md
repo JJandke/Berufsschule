@@ -16,7 +16,7 @@ typora-copy-images-to: /img
 >
 >  Die Datei wird soweit möglich laufend erweitert und hoffentlich zeitnah fertiggestellt. Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `21-02-2024 09:12`
+>  Timestamp: `21-02-2024 10:12`
 
  
 
@@ -458,6 +458,14 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 #### IPv6
 
+- 128 Bit groß
+
+- Blöcke à 16 Bit
+
+- meist: ersten 64 Bit als Subnet Präfix, die anderen 64 Bit zur Hostbezeichnung
+
+  
+
 **Kürzen**:
 
 ```shell
@@ -466,6 +474,17 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 2001:DB8::1DAF:0000:0000                    # die ersten, zusammenhängende 0er-Blöcke als :: kürzen
 2001:DB8::1DAF:0:0                          # alle restlichen 0er-Blöcke als :0 schreiben 
 ```
+
+
+
+**Besondere IPv6-Adressen**:
+
+`::` entspricht `0.0.0.0`
+`::1` entspricht `127.0.0.1` –> Localhost
+`fe80: ...` Linklokale Adresse, nur im privaten Netz, keine Nutzdaten, autom. generiert
+`fd00: ...` Linklokale Adresse, von DHCP zugewiesen, zur Kommunikation im lok. Netz, auch ULA-Adresse genannt
+
+
 
 
 
