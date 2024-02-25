@@ -17,7 +17,7 @@ typora-copy-images-to: /img
 >
 >  Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `25-02-2024 18:17`
+>  Timestamp: `25-02-2024 18:21`
 
  
 
@@ -698,6 +698,13 @@ $$ R = \dfrac{U}{I} $$​
 - Bei Dual-Channel RAM sind zwei Kanäle gleichzeitig an die CPU angebunden –> Erhöhung der Bandbreite
 - Meist sind die Slots farblich markiert –> hier z.B. erst die roten Slots, dann die grauen Slots belegen, um sicher zu stellen, dass nicht auf einen Kanal zwei Riegel gesteckt werden
 - Die Farbe unterscheidet also nicht die Kanäle sondern welche Slots zuerst belegt werden sollen.
+
+
+
+### BIOS-Flashback
+
+- Funktioniert nur bei speziell gekennzeichneten USB-Ports am Motherboard
+- Möglichkeit ein BIOS-Update auf einem USB-Stick einzuspielen, ohne das CPU und RAM funktionieren (z.B. wenn CPU, RAM etc. so neu sind, dass das Motherboard die Hardware noch nicht unterstützt.)
 
 
 
