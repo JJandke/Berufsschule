@@ -17,7 +17,7 @@ typora-copy-images-to: /img
 >
 >  Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `21-02-2024 21:31`
+>  Timestamp: `25-02-2024 17:50`
 
  
 
@@ -351,8 +351,34 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 - **DSL** (16Mbit/s) – VDSL(50Mbit/s, 100Mbit/s) – SDSL(250Mbit/s)
 
-- **Steckertypen**: Naja, was n HDMI/Display Port Stecker is, braucht ma wohl nicht extra aufschreiben oder?
+- **Steckertypen**: 
 
+  <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/0c7a06e9c011712c18f93b67da191091.jpg" align=left alt="Guide of Video Connectors on Monitors & Computers | CableCreation" style="zoom:50%;" /><img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/usb-gen3-type-c-fig1.jpg" alt="USB 3.x generations continue to confuse end-users, designers, and  manufacturers. | Mouser" style="zoom: 62%;" />
+  
+  
+  
+  > [!NOTE]
+  >
+  > **USB-Debunk, weil es viele falsch verstehen und offensichtlich auch Verkäufer auf Amazon etc. nicht richtig machen!**
+  >
+  > Die oben gezeigten Steckertypen haben NICHTS mit der USB-Version und/oder Geschwindigkeit der Datenübertragung zu tun. ([Guter Wiki-Artikel](https://en.wikipedia.org/wiki/USB))
+  >
+  > USB-C ist lediglich ein Steckertyp. Da er mehr Pins hat, sind Datenraten von 10Gbit/s - 80Gbit/s möglich. Das hängt aber vom verwendeten Protokoll ab und nicht zwingend vom Stecker. Billige Handys haben z.B. auch einen USB-C Port, übertragen aber nur mit USB2 Geschwindigkeit (420MBit/s).
+  >
+  > Andersherum aber, können über einen Typ A Stecker max. 420MBit/s (USB 2.0) übertragen werden, da für mehr Geschwindigkeit mehr Leitungen vorausgesetzt werden. Für USB 2 und 3 wird zwar der gleiche Steckertyp (A) verwendet, dieser hat aber für letztere Version mehr Leitungen.
+  >
+  > Desweiteren gibt es neben dem USB-Protokoll noch das Thunderbolt Protokoll (häufig bei Apple), welches seit Version 3.0 auch den USB-C stecker nutzt. 
+  >
+  > Außerdem ist es möglich mit dem USB-C Stecker nicht nur Daten zu übertragen, sondern auch Videosignale (DP-Alt Mode) und sogar PCIe-Signale. Das jeweilige Protokoll müssen dann aber beide Seiten unterstützen.
+  >
+  > Welches Gerät jetzt via USB-Powerdelivery (USB-PD) oder Quick-Charge (beides ein Protokoll) wie schnell lädt, ist nochmal eine Wissenschaft für sich…
+  
+  
+  
+  
+  
+  
+  
   
 
 ### Softwareprodukte
