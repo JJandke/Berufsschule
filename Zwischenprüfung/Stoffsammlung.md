@@ -17,7 +17,7 @@ typora-copy-images-to: /img
 >
 >  Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `25-02-2024 17:50`
+>  Timestamp: `25-02-2024 18:17`
 
  
 
@@ -420,6 +420,27 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 
 
+### SAN vs. NAS
+
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/bb-bh-NAS-vs-SAN.jpg" align=left alt="NAS vs. SAN - What Are the Differences Between Them" style="zoom:50%;" />
+
+**NAS:**
+
+- “normal” per Ethernet ans Netzwerk angeschlossen (Dateien werden auf einzelne Ethernet-Pakete aufgeteilt –> langsam)
+-  Ein Gerät
+- Clients müssen kein spzezielles Protokoll/ Schnittstelle unterstützen
+
+**SAN:**
+
+- Auch per Netzwerk, nutzt aber Fibre Channel anstatt Ethernet als Protokoll (Dateien werden als Ganzes verschickt –> schnell)
+- Aufteilung auf mehrere Server (Storage Server, Metadatenserver)
+- Clients müssen Glasfaseranbindung und Firbre Channel unterstützen (seperate Netzwerkanbindung)
+- Teure Switche
+- wesentlich performanter –> Loadbalancing durch mehrere Server
+- gut Skalierbar –> Hinzufügen neuer Storage Server
+
+
+
 ## 3.2 Einsatzbereiche v. IT-Systemen
 
 ### Datenbanksysteme
@@ -670,7 +691,13 @@ $$ R = \dfrac{U}{I} $$​
 - **Barrierefreiheit**: zwei Monitore, Lautsprecher, Mikro…
 - Immer an gegebene Bedingungen angepasst –> [Bedarfsanalyse](## 2.2 Bedarfsanalyse) 
 
+### Dual Channel RAM
 
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/Single-Channel-vs-Dual-Channel.jpg" align=left alt="2 vs 4 RAM Modules - Are There Any Differences?" style="zoom: 33%;" />
+
+- Bei Dual-Channel RAM sind zwei Kanäle gleichzeitig an die CPU angebunden –> Erhöhung der Bandbreite
+- Meist sind die Slots farblich markiert –> hier z.B. erst die roten Slots, dann die grauen Slots belegen, um sicher zu stellen, dass nicht auf einen Kanal zwei Riegel gesteckt werden
+- Die Farbe unterscheidet also nicht die Kanäle sondern welche Slots zuerst belegt werden sollen.
 
 
 
