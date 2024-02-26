@@ -341,7 +341,7 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 ### Hardwareprodukte
 
-- **CPU** 
+- **CPU** (Phys. Prozessoren: vorhandene Kerne; Logische Prozessoren: Durch Multithreading theoretisch verfügbare Kerne.  z.B. 8 phys. Kerne und 16 Logische Kerne)
 
 - **Motherboard**
 
