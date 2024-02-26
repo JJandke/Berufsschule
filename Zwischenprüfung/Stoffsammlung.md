@@ -83,7 +83,7 @@ Kritischer Pfad: Sobald verzögerter Prozess e. GP von 0 hat lander er auf dem k
 
 ### Gantt-Diagramm
 
-<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/parts-of-gantt-chart%402x.png" align=left alt="Aufbau von Gantt Digrammen | Lucidchart" style="zoom:67%;" />
+<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/parts-of-gantt-chart@2x-1708978391483-2.png" align=left alt="Aufbau von Gantt Digrammen | Lucidchart" style="zoom: 48%;" /><img src="https://private-user-images.githubusercontent.com/160414965/307528708-de76dd50-61e8-4834-ba65-0c7f00b2cd45.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg5Nzg2NzgsIm5iZiI6MTcwODk3ODM3OCwicGF0aCI6Ii8xNjA0MTQ5NjUvMzA3NTI4NzA4LWRlNzZkZDUwLTYxZTgtNDgzNC1iYTY1LTBjN2YwMGIyY2Q0NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIyNlQyMDEyNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mNGQ3NjcxZGEyMjdjMmUyNmQ3MmJmZjFiYjJlZmI3MDQ1MDEyNTcwNTc3ZjkzNjBjMjFmYjYxOTU5ZDMwZGIyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.dw56xgyl1U6URfKDWtytM8fmBC9QBMCB8YO0zOTCc2o" alt="GANTT-Diagramm AP1 2023_Herbst" style="zoom: 25%;" />
 
 - Kritischer Weg
 - Pufferzeiten
