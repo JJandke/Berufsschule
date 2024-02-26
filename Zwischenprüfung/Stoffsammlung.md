@@ -17,7 +17,7 @@ typora-copy-images-to: /img
 >
 >  Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `25-02-2024 18:21`
+>  Timestamp: `26-02-2024 15:33`
 
  
 
@@ -41,7 +41,7 @@ typora-copy-images-to: /img
 > - [Malwareformen](#Arten von Malware)
 > - [It-Service Formen](#Cloudlösungen)
 > - [CAD-Arbeitsplatz](#2.2 Bedarfsanalyse) (Ergonomie)
-> - [Steckertypen](#IT-Systeme)
+> - [Steckertypen](#3.1 IT-Systeme beurteilen)
 > - [Kaufvertrag](#Vertragsgestaltung)
 
 
@@ -261,7 +261,15 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 - Überprüfung von Mängeln
 - Vertragsstrafen
 - Einplanung von Pufferzeiten
-- 
+
+**Bestandteile**
+
+- Angabe der Vertragsparteien
+- Vermögensgegenstand (Art, Beschaffenheit, Güte)
+- Menge
+- Kaufpreis
+- Leistungszeit/ Lieferbedingungen
+- Zahlungsmittel und -bedingungen
 
 
 
@@ -345,12 +353,22 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
   - **RJ45** Stecker: 8 Adern, LEDs an Port nicht genormt, Leuchten steht für Link erfolgreich, blinken für Link aktiv![image-20240208181413050](https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/image-20240208181413050.png)
 
+    <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/Untitled.png" align=left alt="Untitled" style="zoom:25%;" /> - Stecker heißt RJ45 Stecker, es läuft häufig das Ethernet-Protokoll drüber. 
+
     
 
+    
+
+    
+  
+    
+  
+    
+  
   - (Q)**SFP**(+): Für Glasfasfaser, meist LC oder MPO-Kabel verwendet, bis zu 800Gbit/s
-
+  
     <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/education-Singlemode-vs-multimode-lg.jpg" align=left alt="What is the difference between single mode vs. multimode fiber?- TC  Communications" style="zoom:50%;" /> <img src="https://www.glsunmall.com/resource/image/guideImage/transceivers.jpg" align=right alt="Differences Between SFP, SFP+, SFP28, QSFP+ and QSFP28" style="zoom:45%;" />
-
+  
   
 
 
@@ -366,9 +384,9 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 - **Steckertypen**: 
 
   <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/0c7a06e9c011712c18f93b67da191091.jpg" align=left alt="Guide of Video Connectors on Monitors & Computers | CableCreation" style="zoom:50%;" /><img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/usb-gen3-type-c-fig1.jpg" alt="USB 3.x generations continue to confuse end-users, designers, and  manufacturers. | Mouser" style="zoom: 62%;" />
+
   
-  
-  
+
   > [!NOTE]
   >
   > **USB-Debunk, weil es viele falsch verstehen und offensichtlich auch Verkäufer auf Amazon etc. nicht richtig machen!**
@@ -377,20 +395,20 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
   >
   > USB-C ist lediglich ein Steckertyp. Da er mehr Pins hat, sind Datenraten von 10Gbit/s - 80Gbit/s möglich. Das hängt aber vom verwendeten Protokoll ab und nicht zwingend vom Stecker. Billige Handys haben z.B. auch einen USB-C Port, übertragen aber nur mit USB2 Geschwindigkeit (420MBit/s).
   >
-  > Andersherum aber, können über einen Typ A Stecker max. 420MBit/s (USB 2.0) übertragen werden, da für mehr Geschwindigkeit mehr Leitungen vorausgesetzt werden. Für USB 2 und 3 wird zwar der gleiche Steckertyp (A) verwendet, dieser hat aber für letztere Version mehr Leitungen.
+  > Andersherum aber, können über einen Typ A Stecker max. 480MBit/s (USB 2.0) übertragen werden, da für mehr Geschwindigkeit mehr Leitungen vorausgesetzt werden. Für USB 2 und 3 wird zwar der gleiche Steckertyp (A) verwendet, dieser hat aber für letztere Version mehr Leitungen.
   >
   > Desweiteren gibt es neben dem USB-Protokoll noch das Thunderbolt Protokoll (häufig bei Apple), welches seit Version 3.0 auch den USB-C stecker nutzt. 
   >
   > Außerdem ist es möglich mit dem USB-C Stecker nicht nur Daten zu übertragen, sondern auch Videosignale (DP-Alt Mode) und sogar PCIe-Signale. Das jeweilige Protokoll müssen dann aber beide Seiten unterstützen.
   >
   > Welches Gerät jetzt via USB-Powerdelivery (USB-PD) oder Quick-Charge (beides ein Protokoll) wie schnell lädt, ist nochmal eine Wissenschaft für sich…
+
   
+
   
+
   
-  
-  
-  
-  
+
   
 
 ### Softwareprodukte
@@ -593,6 +611,22 @@ Binär: $$2^x$$ 													Dezimal: $$10^x$$
 **Umrechnung Bit < – > Byte**
 
 <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenprüfung/img/Imagen6-69ea70bd-7e92-4432-9c97-106f491415fb.jpg" align=left alt="Bits, Bytes, Mebibyte: ¿Qué son y cómo resolverlos?" style="zoom: 40%;" />
+
+
+
+**Umrechnung Megabit in Mebibit**
+
+geg: Datei $$F = 40Mb$$
+
+ges: Größe in $$MiB$$​
+
+Rechnung:
+
+> $$40Mb \times 1.000 \times 1.000 \quad = \quad 40.000.000 Bit$$​	// Umrechnung von Mb in Bit 
+>
+> $$\dfrac{40.000.000 Bit Bit}{1024 \times 1024} \quad =  \quad 38,15Mib $$		// Durch 2x 1.024 teilen um auf **Mebi** zu kommen
+>
+> $$38,15Mib \div 8 \quad = \quad 4,77MiB$$			// Umrechnung von Bit auf Byte
 
 
 
