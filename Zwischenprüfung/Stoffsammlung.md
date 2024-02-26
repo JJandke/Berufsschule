@@ -341,7 +341,9 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 ### Hardwareprodukte
 
-- **CPU** (Phys. Prozessoren: vorhandene Kerne; Logische Prozessoren: Durch Multithreading theoretisch verfügbare Kerne.  z.B. 8 phys. Kerne und 16 Logische Kerne)
+- **CPU** (**Phys. Prozessoren**: vorhandene Kerne; **Logische Prozessoren**: Durch Multithreading theoretisch verfügbare Kerne.  z.B. 8 phys. Kerne und 16 Logische Kerne)
+
+  **Cache**: Extrem schneller Zwischenspeicher in der CPU, speichert Daten, die für aktuell laufende Prozesse benötigt werden
 
 - **Motherboard**
 
