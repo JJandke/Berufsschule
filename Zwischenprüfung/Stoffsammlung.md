@@ -35,6 +35,7 @@ typora-copy-images-to: /img
 > - [Terminal-Befehle](####Netzwerkanbindung, Ip-Konfiguration)
 > - [IPv6](####IPv6)
 > - [VPNs](###VPNs)
+> - [Datensicherung](#Datensicherung, Backup-Verfahren)
 > - Rechnung: [Übertragungsgeschwindigkeit](#einheiten der informatik), `Bit` vs. `Byte`
 > - Rechnung: [Netzteil](#3.3 Elektrotechnik)
 > - [Malwareformen](#Arten von Malware)
@@ -251,6 +252,17 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 - Quantitätsmangel
 - Qualitätsmangel
 
+**Vermeidung von Störungen**
+
+- Verwendung von Versicherung
+- Vertrauenswürdige Partner
+- Sicherungsklauseln im Vertrag
+- Festlegung von Standards
+- Überprüfung von Mängeln
+- Vertragsstrafen
+- Einplanung von Pufferzeiten
+- 
+
 
 
 ## 2.2 Bedarfsanalyse
@@ -416,7 +428,31 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 ### Cloudlösungen
 
-<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/iaas-paas-saas-diagram5.1-1638x1046.png" align=left  alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/iaas-paas-saas-diagram5.1-1638x1046.png" align=left  alt="img" style="zoom:50%;" /> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On Premise: Wenn alles vor Ort ist
+
+
 
 
 
