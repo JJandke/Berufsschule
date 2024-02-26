@@ -17,7 +17,7 @@ typora-copy-images-to: /img
 >
 >  Da es unter Umständen vorkommen kann, dass es unterschiedliche Versionen gibt *(Prozess:  Quellcode/ Git –> HTML und händisch Hedgedoc)*, verweise ich mit dem **Timestamp** auf die **aktuell** **gezeigte** **Version**. Tendenziell ist die **HTML-Version die aktuellste**, da diese nach jedem Git-Push automatisch aktualisiert wird. (Latenz <= 5min)
 >
->  Timestamp: `26-02-2024 15:33`
+>  Timestamp: `26-02-2024 17:16`
 
  
 
@@ -583,7 +583,7 @@ On Premise: Wenn alles vor Ort ist
 
 `::` entspricht `0.0.0.0`
 `::1` entspricht `127.0.0.1` –> Localhost
-`fe80: ...` Linklokale Adresse, nur im privaten Netz, keine Nutzdaten, autom. generiert
+`fe80: ...` Linklokale Adresse, nur am lokalen Interface, keine Nutzdaten, autom. generiert
 `fd00: ...` Linklokale Adresse, von DHCP zugewiesen, zur Kommunikation im lok. Netz, auch ULA-Adresse genannt
 
 
@@ -916,7 +916,7 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 2003:cf:2700:bd00:e168:587:caff:ee00 # IPv6 durch ISP zugewiesen, beginnt mit 2003 bei Telekom
         inet6 2003:cf:2700:bd00:b00b:saa7:dead:beef # IPv6 durch ISP zugewiesen, beginnt mit 2003 bei Telekom
         inet6 fd00::fdc1:1fce:238a:75a1 # ULA-Adresse, für Kommunikation im lokalen Netz
-        inet6 fe80::2dae:7419:3391:6dab # Linklokale IPv6, nicht routbar, nur im lokalen Netz, keine Nutzdatenübertragung
+        inet6 fe80::2dae:7419:3391:6dab # Linklokale IPv6, nicht routbar, nur am lokalen Interface, keine Nutzdatenübertragung
         ether c8:7f:87:05:99:8a # MAC-Adresse
 ```
 
