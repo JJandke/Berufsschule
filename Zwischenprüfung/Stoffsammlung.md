@@ -543,6 +543,8 @@ On Premise: Wenn alles vor Ort ist
 <img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/seven-layers-of-OSI-model.png" align=left alt="TCP/IP vs. OSI: Was ist der Unterschied? | FS Community" style="zoom: 80%;" />
 
 `1-7 englisch`: **P**hysiker **D**ie **N**icht **T**rinken **S**ind **P**otentielle **A**ttentäter 
+`7-1 deutsch:` **A**lle **D**eutschen **S**chüler **T**rinken **V**erschiedene **S**orten **B**ier
+			Anw.  Darst.        Sitz.      Transp. Vermittl. 	 Sicher. Bit.
 
 
 
