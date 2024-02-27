@@ -244,26 +244,23 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 
 
-### Kaufvertragsstörungen:
+### Kaufvertragsstörungen
 
-- Falschlieferung
-- Montagemangel
-- fehlerhafte Montageanleitung
-- Quantitätsmangel
-- Qualitätsmangel
-- Mangelnd
+- **Lieferverzug** –> Ablehnung, auf Zustellung bestehen
+- **Mängel**: Lieferung –> Sattel fehlt, Menge, Produktart, etc.
+- **Zahlungsverzug** –> Zinzen für Warten oder Verweigerung und Rückforderung d. Ware
+- **Annahmeverzug** –> Rücktritt vom KV
 
 **Vermeidung von Störungen**
 
-- Verwendung von Versicherung
-- Vertrauenswürdige Partner
-- Sicherungsklauseln im Vertrag
-- Festlegung von Standards
+- Verwendung von **Versicherung**
+- **Sicherungsklauseln** im Vertrag
 - Überprüfung von Mängeln
-- Vertragsstrafen
-- Einplanung von Pufferzeiten
+- **Vertragsstrafen**
 
-**Bestandteile**
+
+
+### ErstelluKaufvertrags
 
 - Angabe der Vertragsparteien
 - Vermögensgegenstand (Art, Beschaffenheit, Güte)
