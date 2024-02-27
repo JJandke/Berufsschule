@@ -630,6 +630,18 @@ Binär: $$2^x$$ 													Dezimal: $$10^x$$
 
 **Umrechnung Megabit in Mebibit**
 
+Dabei stehen folgende Zahlen mit ihren Präfixen in Relation: *1=Kilo*, *2=Mega*, *3=Giga*, *4=Terra*
+
+**Generelle Formel:**
+
+**XiByte zu Bit**: $$XiB \times (1024^x) \times 8 \quad = \quad bit$$ 
+
+**Bit zu XiByte**: $$\dfrac{bit \div 8}{1024^x} \quad = \quad XiB$$
+
+
+
+**Beispiel:**
+
 geg: Datei $$F = 40Mb$$
 
 ges: Größe in $$MiB$$​
