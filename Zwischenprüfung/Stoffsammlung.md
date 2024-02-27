@@ -244,13 +244,14 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 
 
-**Kaufvertragsstörungen:**
+### Kaufvertragsstörungen:
 
 - Falschlieferung
 - Montagemangel
 - fehlerhafte Montageanleitung
 - Quantitätsmangel
 - Qualitätsmangel
+- Mangelnd
 
 **Vermeidung von Störungen**
 
