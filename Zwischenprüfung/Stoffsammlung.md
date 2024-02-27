@@ -43,6 +43,7 @@ typora-copy-images-to: /img
 > - [CAD-Arbeitsplatz](#2.2 Bedarfsanalyse) (Ergonomie)
 > - [Steckertypen](#3.1 IT-Systeme beurteilen)
 > - [Kaufvertrag](#Vertragsgestaltung)
+> - [Angebotsvergleich](#7.9 Angebotsvergleich)
 
 
 
