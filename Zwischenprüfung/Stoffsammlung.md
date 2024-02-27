@@ -1627,38 +1627,13 @@ während Punkt 4, Unterscheidung in mehrere Gruppen z.B.:
 
 ## 7.9 Angebotsvergleich
 
+Ähnlich bzw. vergleichbar mit Nutzwertanalyse
 Aufgeteilt in drei Schritte:
 
 1. **Quantitativer** Angebotsvergleich: Vergleich d. **Bezugspreise** (von Hersteller zur eigenen Firma)
 2. **Qualitativer** Angebotsvergleich: Vergleich von wichtigen Kriterien (Nachhaltigkeit, schnelle Lieferung, etc.)
 3. **Gewichtung** der Kriterien: Entgültiger Entschluss (Siehe: [Nutzwertanalyse](#Nutzwertanalyse))
 
-<img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Folie2-16-1024x576.png" align=left alt="Bezugspreisvergleich - Beispiel" style="zoom:50%;" /><img src="/home/johannes/Dokumente/Berufschule/GitHub/Berufsschule/Zwischenprüfung/img/Folie4-9-1024x576.png" alt="Angebotsvergleich, Gewichtung der Kriterien, Bezugspreis, qualitative Kriterien Angebot, Angebote vergleichen, Angebotsvergleich von zwei Produkten, Angebotsvergleich Beispiel, Gewichtung der Kriterien Angebot Beispiel" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Folie2-16-1024x576.png" align=left alt="Bezugspreisvergleich - Beispiel" style="zoom:50%;" /><img src="https://raw.githubusercontent.com/JJandke/Berufsschule/master/Zwischenpr%C3%BCfung/img/Folie4-9-1024x576.png" alt="Angebotsvergleich, Gewichtung der Kriterien, Bezugspreis, qualitative Kriterien Angebot, Angebote vergleichen, Angebotsvergleich von zwei Produkten, Angebotsvergleich Beispiel, Gewichtung der Kriterien Angebot Beispiel" style="zoom:50%;" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ifcon
