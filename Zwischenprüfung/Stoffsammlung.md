@@ -260,14 +260,25 @@ Einmalig – Einzigartig – Begrenzte Ressourcen – Festgelegte Zeit – birgt
 
 
 
-### ErstelluKaufvertrags
+### Erstellung, Bestandteile Kaufvertrags
 
-- Angabe der Vertragsparteien
-- Vermögensgegenstand (Art, Beschaffenheit, Güte)
-- Menge
-- Kaufpreis
-- Leistungszeit/ Lieferbedingungen
-- Zahlungsmittel und -bedingungen
+**Erstellung**
+
+**Angebot** –> **Annahme** des Angebots –> **übereinstimmende** **Willenserklärung** (muss nicht schriftlich erfolgen)
+
+1. Willenserklärung d. Verkäufers –> Willenserklärung d. Käufers (z.B. Fahrradladen)
+2. Willenserklärung d. Käufers –> Willenserklärung d. Verkäufers (z.B. eBay)
+
+
+
+**Bestandteile**
+
+- Angabe der **Vertragsparteien**
+- Vermögensgeg**enstand** (Art, Beschaffenheit, Güte)
+- **Menge**
+- **Kaufpreis**
+- **Leistungszeit**/ Lieferbedingungen
+- **Zahlungsmittel** und -bedingungen
 
 
 
