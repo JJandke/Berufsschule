@@ -634,9 +634,9 @@ Dabei stehen folgende Zahlen mit ihren Präfixen in Relation: *1=Kilo*, *2=Mega*
 
 **Generelle Formel:**
 
-**XiByte zu Bit**: $$XiB \times (1024^x) \times 8 \quad = \quad bit$$ 
+**XiByte zu Bit**: $$xiB \times (1024^x) \times 8 \quad = \quad bit$$ 
 
-**Bit zu XiByte**: $$\dfrac{bit \div 8}{1024^x} \quad = \quad XiB$$
+**Bit zu XiByte**: $$\dfrac{bit \div 8}{1024^x} \quad = \quad xiB$$
 
 
 
