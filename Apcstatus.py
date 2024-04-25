@@ -34,7 +34,9 @@ def get_apc_voltage():
 voltage = get_apc_voltage()
 
 if voltage:
-  if 
-  print(f"Voltage: {voltage} Volts")
+  if voltage > 207:
+    print(f"Voltage: {voltage} Volts")
+  
+    
 else:
   print("Error: Could not extract voltage")
