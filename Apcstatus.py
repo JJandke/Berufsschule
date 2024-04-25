@@ -10,7 +10,7 @@ def get_apc_voltage():
   """
   try:
     # Execute the command with PIPE to capture standard output
-    process = subprocess.Popen(["apcacces", "-p", "LINEV"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    process = subprocess.Popen(["apcaccess", "-p", "LINEV"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     # Get the output and error (if any)
     output, error = process.communicate()
     # Decode the output (may need adjustments based on your encoding)
@@ -34,6 +34,7 @@ def get_apc_voltage():
 voltage = get_apc_voltage()
 
 if voltage:
+  if 
   print(f"Voltage: {voltage} Volts")
 else:
   print("Error: Could not extract voltage")
